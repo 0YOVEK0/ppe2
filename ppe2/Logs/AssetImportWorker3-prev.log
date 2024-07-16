@@ -1,0 +1,509 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 32452 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/GITHUB/413/EckioseProyect/EP
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+62541
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/GITHUB/413/EckioseProyect/EP
+D:/GITHUB/413/EckioseProyect/EP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2060] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 517268639 [EditorId] 517268639 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2060] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 517268639 [EditorId] 517268639 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GITHUB/413/EckioseProyect/EP/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.007219 seconds.
+- Loaded All Assemblies, in  0.676 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 590 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  1.057 seconds
+Domain Reload Profiling: 1726ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (246ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1057ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1008ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (715ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\413\EckioseProyect\EP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\413\EckioseProyect\EP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.100 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.913 seconds
+Domain Reload Profiling: 2009ms
+	BeginReloadAssembly (395ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (460ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (215ms)
+			BuildScriptInfoCaches (24ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (914ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (585ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3235 unused Assets / (0.9 MB). Loaded Objects now: 3840.
+Memory consumption went from 114.0 MB to 113.2 MB.
+Total: 7.657400 ms (FindLiveObjects: 0.620200 ms CreateObjectMapping: 0.352500 ms MarkObjects: 5.889500 ms  DeleteObjects: 0.793200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 275067.873875 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_dir.png
+  artifactKey: Guid(95c651454f9809c4e99177e13e986f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_dir.png using Guid(95c651454f9809c4e99177e13e986f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6159bf910d6106f4e65d9b719c5807d') in 0.1234432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-4_comp_dir.png
+  artifactKey: Guid(c8d882df1c288c74280fe521ff920ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-4_comp_dir.png using Guid(c8d882df1c288c74280fe521ff920ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80b8b788a1dd537ddc2481c26dc53e59') in 0.0070164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000683 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-9_comp_dir.png
+  artifactKey: Guid(4ae538008d81f9d43b520b13088e3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-9_comp_dir.png using Guid(4ae538008d81f9d43b520b13088e3121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5049d01ebc87ba75fc7712b7eff63c21') in 0.0068282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-7_comp_light.exr
+  artifactKey: Guid(35cf7105d4acdba489ce9a2fab52f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-7_comp_light.exr using Guid(35cf7105d4acdba489ce9a2fab52f283) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d8a959e743eb003ffd4ec796333f8cb') in 0.018253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3756135faa517af44a5884ea8328d186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-1_comp_light.exr using Guid(3756135faa517af44a5884ea8328d186) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61f1bd8b10e546e2b6fe6ade62d706f0') in 0.0055822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-8_comp_shadowmask.png
+  artifactKey: Guid(d07925f7921447142a4c30de7f2672a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-8_comp_shadowmask.png using Guid(d07925f7921447142a4c30de7f2672a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b81752cb6f1bc3c25910081afed6317') in 0.0253659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.744529 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-11_comp_light.exr
+  artifactKey: Guid(d26e030e3b7ce5c408a7e060c7ccf0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-11_comp_light.exr using Guid(d26e030e3b7ce5c408a7e060c7ccf0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9073001e7dbb1c28a479cf81e9044db2') in 0.0058442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-12_comp_dir.png
+  artifactKey: Guid(ec93d6d5511cdad46bb19fba40f72eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-12_comp_dir.png using Guid(ec93d6d5511cdad46bb19fba40f72eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd449c101d380defc786b366198db862b') in 0.0081365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-12_comp_shadowmask.png
+  artifactKey: Guid(b5e0029f5f28cbb45bc394502e53726c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-12_comp_shadowmask.png using Guid(b5e0029f5f28cbb45bc394502e53726c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efb64fa6b5d45f68763db16b0536b3c8') in 0.0200365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032052 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-14_comp_shadowmask.png
+  artifactKey: Guid(b4def94c809e9284287e766be0fa665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-14_comp_shadowmask.png using Guid(b4def94c809e9284287e766be0fa665c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '573245cd68ee1549ff9c9f98e68959f5') in 0.013284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-15_comp_shadowmask.png
+  artifactKey: Guid(0420aecf93eb0ff449f43bce83d2ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-15_comp_shadowmask.png using Guid(0420aecf93eb0ff449f43bce83d2ac5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a6ea95589a5be9993a280fa0c6c6b9f') in 0.0047272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-15_comp_light.exr
+  artifactKey: Guid(c9ddc453815e7c64db4a9cd2f14d9f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-15_comp_light.exr using Guid(c9ddc453815e7c64db4a9cd2f14d9f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25f69aa181ce335011f76924669994ac') in 0.0082384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040042 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-18_comp_dir.png
+  artifactKey: Guid(e55d7936e35f85642bc8ae1fceb5095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-18_comp_dir.png using Guid(e55d7936e35f85642bc8ae1fceb5095d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '237ad468c85467d6cc0e27c2504f5f44') in 0.0058715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-18_comp_light.exr
+  artifactKey: Guid(8a1c79692713c684789859c1b445db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-18_comp_light.exr using Guid(8a1c79692713c684789859c1b445db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a82f892ffcda6affc4cb854d7c39bd6b') in 0.0051352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-19_comp_shadowmask.png
+  artifactKey: Guid(b416f8f6324eb4e4f8c667b3c889d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-19_comp_shadowmask.png using Guid(b416f8f6324eb4e4f8c667b3c889d9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f785e8ba0701e18d602200c1f65e216') in 0.0043818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.367514 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-21_comp_light.exr
+  artifactKey: Guid(639f5953c5198134eb81a199b7c3c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-21_comp_light.exr using Guid(639f5953c5198134eb81a199b7c3c124) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66a7161a3e046ad42c77d3370193fcee') in 0.0269713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-25_comp_dir.png
+  artifactKey: Guid(73430c7f87d2b6f4fae21e3548c15218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-25_comp_dir.png using Guid(73430c7f87d2b6f4fae21e3548c15218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85fc917d1602b68164181fa5cabd9e43') in 0.0162651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-25_comp_light.exr
+  artifactKey: Guid(6939302e428ce7b4cb4dec1d1d711eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-25_comp_light.exr using Guid(6939302e428ce7b4cb4dec1d1d711eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb70a547bc65c130db9fe1cd3a2f7ac2') in 0.0127702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008912 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-28_comp_dir.png
+  artifactKey: Guid(046ee280fa6947f409fb717488a82f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-28_comp_dir.png using Guid(046ee280fa6947f409fb717488a82f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862cd66e8587a28f34cca91b584e8ab3') in 0.0055848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-28_comp_shadowmask.png
+  artifactKey: Guid(a5f3f157c8423194b80389e0277bfda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-28_comp_shadowmask.png using Guid(a5f3f157c8423194b80389e0277bfda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cee69ddaa63c9329417902430cbbb891') in 0.0061746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021451 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-31_comp_light.exr
+  artifactKey: Guid(97b50b49816323b4b8d27c37a7839024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-31_comp_light.exr using Guid(97b50b49816323b4b8d27c37a7839024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6104e7a18f0ccff5aa38a8efc36dcee8') in 0.0096077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-33_comp_dir.png
+  artifactKey: Guid(ad69d5a4f42f6714c8fb4cf4c8e33a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-33_comp_dir.png using Guid(ad69d5a4f42f6714c8fb4cf4c8e33a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a358902f9d8fcebe8d1186b3103aa3d') in 0.0052861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-31_comp_shadowmask.png
+  artifactKey: Guid(2219f8fb4c543684d8d33dbd549886d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-31_comp_shadowmask.png using Guid(2219f8fb4c543684d8d33dbd549886d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c54830ac358c84614d49bd4143249e2b') in 0.0084662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.195081 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-34_comp_shadowmask.png
+  artifactKey: Guid(842ca3bb32fce2c45959edcaa9d8c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-34_comp_shadowmask.png using Guid(842ca3bb32fce2c45959edcaa9d8c848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84c25791b22a7c83e98a52533f31fe64') in 0.0062643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-35_comp_shadowmask.png
+  artifactKey: Guid(1b392a305d82ae74c82ce98c5cd703f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-35_comp_shadowmask.png using Guid(1b392a305d82ae74c82ce98c5cd703f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e286dff6c0b9d1b734b17111b886c50') in 0.0041577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-35_comp_dir.png
+  artifactKey: Guid(d437e62c98ca2f948a37033e01adb3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-35_comp_dir.png using Guid(d437e62c98ca2f948a37033e01adb3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '180924bf826732139c9dde3e411a49ff') in 0.0040356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-36_comp_light.exr
+  artifactKey: Guid(8da714b2857f9934dbc0888f02923f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-36_comp_light.exr using Guid(8da714b2857f9934dbc0888f02923f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5594cfa0ab54f1e5f3557f188fa17eb6') in 0.0093624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011093 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-38_comp_dir.png
+  artifactKey: Guid(14bf115ee34329249825ba4f8d3d0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-38_comp_dir.png using Guid(14bf115ee34329249825ba4f8d3d0bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc206f0670a1f846073b79a8a81661b6') in 0.0088344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-39_comp_shadowmask.png
+  artifactKey: Guid(1a5f687f5ed12ae4a86898871939b0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-39_comp_shadowmask.png using Guid(1a5f687f5ed12ae4a86898871939b0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf885c487b38f6af636d60c0b1da84f') in 0.0054912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.190169 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-41_comp_light.exr
+  artifactKey: Guid(db60a13aa53e28743946a16a588d8e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-41_comp_light.exr using Guid(db60a13aa53e28743946a16a588d8e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b78bbdca2632f0ee9eee3b5d161e949') in 0.0046342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_light.exr
+  artifactKey: Guid(607248ad32fd4d84db29fbf1f969781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_light.exr using Guid(607248ad32fd4d84db29fbf1f969781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17b414958f3abcee3738c6281417b98e') in 0.006431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_shadowmask.png
+  artifactKey: Guid(7951df811c42f894f9f4178e85f7c5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-42_comp_shadowmask.png using Guid(7951df811c42f894f9f4178e85f7c5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b42052fd0ac2aa18ca370e4f8f3cbb72') in 0.0093437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024588 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-44_comp_shadowmask.png
+  artifactKey: Guid(158a9727850ea49499593fa693f9e503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-44_comp_shadowmask.png using Guid(158a9727850ea49499593fa693f9e503) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '835db003d49bf1558eafcec0b27a096e') in 0.0102192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-46_comp_dir.png
+  artifactKey: Guid(586573571a057ef499a4c49c9a5e26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-46_comp_dir.png using Guid(586573571a057ef499a4c49c9a5e26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '403d162d4fafcde4d7b28c9cdb988e91') in 0.0043698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-45_comp_light.exr
+  artifactKey: Guid(974915bc31faff8438b4b49bf0387d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-45_comp_light.exr using Guid(974915bc31faff8438b4b49bf0387d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e12d98c70c7a730c29c6ba8977e2bf1') in 0.0056157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002821 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-47_comp_light.exr
+  artifactKey: Guid(bc45f2b0c250fab40a6e2cd32f8ec121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-47_comp_light.exr using Guid(bc45f2b0c250fab40a6e2cd32f8ec121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cfbb85406c09a0e68f17f93698fa0eb') in 0.0081106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_light.exr
+  artifactKey: Guid(444da196248676248a81affe585b9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_light.exr using Guid(444da196248676248a81affe585b9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cae2c5b9921caa8fcc3b5023e0bddea3') in 0.0051229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_dir.png
+  artifactKey: Guid(d36317120fde2e0418acb21431a7c1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/DemoScenes/Demo/Lightmap-48_comp_dir.png using Guid(d36317120fde2e0418acb21431a7c1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '609db9199d9c8df852c7542ce3fb41e3') in 0.005533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

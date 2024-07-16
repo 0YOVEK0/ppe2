@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 160b4f8d8e411c34dae5b3cb9bfea135
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 36365
+  packageName: Alien and Space Marines Units
+  packageVersion: 1.0
+  assetPath: Assets/AliensAndMarines/Prefabs/AlienTurret.prefab
+  uploadId: 71672

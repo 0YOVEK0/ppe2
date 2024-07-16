@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 32d465897892b6849848485e792dc24d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 36365
+  packageName: Alien and Space Marines Units
+  packageVersion: 1.0
+  assetPath: Assets/AliensAndMarines/AnimationControllers/Ciccio.controller
+  uploadId: 71672
