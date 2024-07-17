@@ -15,7 +15,7 @@ D:/GITHUB/ppe2/ppe2
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-50795
+51486
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ D:/GITHUB/ppe2/ppe2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26608] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 2130119291 [EditorId] 2130119291 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [26608] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 2130119291 [EditorId] 2130119291 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24084] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 786328028 [EditorId] 786328028 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24084] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 786328028 [EditorId] 786328028 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.18f1 (1cb755715f58)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -94,43 +94,43 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004449 seconds.
-- Loaded All Assemblies, in  0.653 seconds
+Registered in 0.003798 seconds.
+- Loaded All Assemblies, in  0.528 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 514 ms
+Android Extension - Scanning For ADB Devices 394 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.995 seconds
-Domain Reload Profiling: 1644ms
-	BeginReloadAssembly (267ms)
+- Finished resetting the current domain, in  0.741 seconds
+Domain Reload Profiling: 1266ms
+	BeginReloadAssembly (218ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (262ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (214ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (239ms)
-				TypeCache.ScanAssembly (218ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (183ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (996ms)
+	FinalizeReload (741ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (944ms)
+		SetupLoadedEditorAssemblies (698ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (638ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (11ms)
-			ProcessInitializeOnLoadAttributes (221ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			InitializePlatformSupportModulesInManaged (485ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,59 +153,362 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.110 seconds
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.889 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.035 seconds
-Domain Reload Profiling: 2139ms
-	BeginReloadAssembly (386ms)
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1567ms
+	BeginReloadAssembly (365ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (629ms)
-		LoadAssemblies (462ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (305ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (250ms)
-				TypeCache.ScanAssembly (234ms)
-			BuildScriptInfoCaches (16ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (1036ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (175ms)
+			BuildScriptInfoCaches (25ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (680ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (799ms)
+		SetupLoadedEditorAssemblies (502ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (38ms)
-			ProcessInitializeOnLoadAttributes (687ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3244 unused Assets / (1.1 MB). Loaded Objects now: 3858.
-Memory consumption went from 115.7 MB to 114.6 MB.
-Total: 8.250600 ms (FindLiveObjects: 0.506000 ms CreateObjectMapping: 0.280900 ms MarkObjects: 6.096800 ms  DeleteObjects: 1.365500 ms)
+Unloading 3244 unused Assets / (1.0 MB). Loaded Objects now: 3861.
+Memory consumption went from 116.0 MB to 115.0 MB.
+Total: 6.182600 ms (FindLiveObjects: 0.547100 ms CreateObjectMapping: 0.278000 ms MarkObjects: 4.566300 ms  DeleteObjects: 0.789400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3178.606664 seconds.
-  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png
-  artifactKey: Guid(393dd4c82e2a04ec08ef9f57528230c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png using Guid(393dd4c82e2a04ec08ef9f57528230c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8669cd368b62cbb26fec3f88086d8fbb') in 0.1709891 seconds
+  Time since last request: 4927.069138 seconds.
+  path: Assets/Lunar Landscape 3D/Prefabs
+  artifactKey: Guid(d1e8c4afa146f4622bb69613327121a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Prefabs using Guid(d1e8c4afa146f4622bb69613327121a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d12deba6535cf4faa1f110b07d4713f') in 0.0063654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059260 seconds.
+  path: Assets/Lunar Landscape 3D/Prefabs/Rocks_03.prefab
+  artifactKey: Guid(259fea420f12e4e2a902923fda1f2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Prefabs/Rocks_03.prefab using Guid(259fea420f12e4e2a902923fda1f2b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89bfc247fbe9d2606fcce0c9a9e4cb2') in 0.0849612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.055944 seconds.
+  path: Assets/Lunar Landscape 3D/Resources/Geometry/Rocks.fbx
+  artifactKey: Guid(4d213cfa48ba54794a67ec42feb8ec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Resources/Geometry/Rocks.fbx using Guid(4d213cfa48ba54794a67ec42feb8ec33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7939ad93e04a054798b3f5a4b13746d') in 0.0617285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.573 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.717 seconds
+Domain Reload Profiling: 1288ms
+	BeginReloadAssembly (174ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (717ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (514ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (433ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3242 unused Assets / (0.9 MB). Loaded Objects now: 3874.
+Memory consumption went from 116.7 MB to 115.9 MB.
+Total: 4.676900 ms (FindLiveObjects: 0.258100 ms CreateObjectMapping: 0.214000 ms MarkObjects: 3.470600 ms  DeleteObjects: 0.733300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.029045 seconds.
+  path: Assets/Lunar Landscape 3D/Scenes/LunarLandscape3D_Profiles
+  artifactKey: Guid(3e52e81ebacd245e1b8040f6a369d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Scenes/LunarLandscape3D_Profiles using Guid(3e52e81ebacd245e1b8040f6a369d20a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ccc4307ccd08f784a6d55a18ed02bb5') in 0.0037512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052134 seconds.
+  path: Assets/Lunar Landscape 3D/Scenes/LunarLandscape3D_Profiles/Post-Processing Volume Profile.asset
+  artifactKey: Guid(c30811e6a75df4309b68ce71c0eb88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Scenes/LunarLandscape3D_Profiles/Post-Processing Volume Profile.asset using Guid(c30811e6a75df4309b68ce71c0eb88b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1960f0bc141e332dbe0ebafa90a22275') in 0.0017413 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 449.700071 seconds.
+  path: Assets/Lunar Landscape 3D/Scenes/New Terrain Material.mat
+  artifactKey: Guid(3f232fd1a1518fd4e96c3d14773234a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Scenes/New Terrain Material.mat using Guid(3f232fd1a1518fd4e96c3d14773234a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b7524f9c7d252ff4536cbdfaee6092') in 0.2400163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.322834 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(c12fe14ac11124c40b89ec7c82aa2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(c12fe14ac11124c40b89ec7c82aa2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a8ec0fc0a7372b6b7a40e066b47414d') in 0.0057144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_bcf265c8-a47e-4149-b1f7-0d93852246d0.asset
+  artifactKey: Guid(96f8db63603d5984e86a612d1155d96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_bcf265c8-a47e-4149-b1f7-0d93852246d0.asset using Guid(96f8db63603d5984e86a612d1155d96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5bb49bd35806345ebdedb7f0ffb0e30') in 0.0043984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.595781 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/Alien/Materials/Alien_D.tga
+  artifactKey: Guid(5c16d57f7d5dfd44eb636569b7642688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/Alien/Materials/Alien_D.tga using Guid(5c16d57f7d5dfd44eb636569b7642688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42e5b95f2bea7dfbcef6475313ecb75e') in 0.014285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053576 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/Alien/Materials/Alien_NM.png
+  artifactKey: Guid(47b90f616e34a964d9f9c4efdcc3b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/Alien/Materials/Alien_NM.png using Guid(47b90f616e34a964d9f9c4efdcc3b0b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6632cd42595c7976a6db0a0482e1029f') in 0.0121501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062707 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/Ui/buttons.png
+  artifactKey: Guid(a13b16eaa11bf23458414b4505f3df0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/Ui/buttons.png using Guid(a13b16eaa11bf23458414b4505f3df0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8de7428d902b86dc7aff8188bcae331f') in 0.0472809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/Ciccio/Materials/Ciccio_Armor_D.tga
+  artifactKey: Guid(2e7723e8b22d0e8468c839985d1426af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/Ciccio/Materials/Ciccio_Armor_D.tga using Guid(2e7723e8b22d0e8468c839985d1426af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f14afe9039d6ca0830b0d2ab92e5faa3') in 0.008055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/AlienTurret/Materials/Alien_Turret_NM.jpg
+  artifactKey: Guid(2e79c9e692c3e1840a8a673a65e06332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/AlienTurret/Materials/Alien_Turret_NM.jpg using Guid(2e79c9e692c3e1840a8a673a65e06332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d77babf183a0a887aaa0d91528892ce') in 0.0109931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png
+  artifactKey: Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png using Guid(34a763168147f4182a21b9fd004d67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6177fdb55b61bfd52bd5b2e5ef678d0') in 0.0706322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.002715 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/Ciccio/Materials/Ciccio_Armor_NM.png
+  artifactKey: Guid(2bc9ee367de66dd47a9edce6242f8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/Ciccio/Materials/Ciccio_Armor_NM.png using Guid(2bc9ee367de66dd47a9edce6242f8b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aff7a70ab0efa8f6e6206bd5246f1490') in 0.0052619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.903733 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/MarineFacility/Materials/MarineFacilityD.tga
+  artifactKey: Guid(e4e749f652663d841a4b647eedf7c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/MarineFacility/Materials/MarineFacilityD.tga using Guid(e4e749f652663d841a4b647eedf7c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce84232637bf53a02b9862e311cdc444') in 0.0098044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019874 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/MarineFacility/Materials/MarineFacilityN.png
+  artifactKey: Guid(8b7823d9a00751649b17f20daeabecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/MarineFacility/Materials/MarineFacilityN.png using Guid(8b7823d9a00751649b17f20daeabecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5675abb9b9a139eeaa892925bfe4078') in 0.0070518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093589 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_1_Back-Z.png
+  artifactKey: Guid(88710d7f2a0fa4bfeacbf7045be893fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_1_Back-Z.png using Guid(88710d7f2a0fa4bfeacbf7045be893fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efdf4ba26a4254b54ab2776cac512412') in 0.0188892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030103 seconds.
+  path: Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_3_Right-X.png
+  artifactKey: Guid(8e462a9bf0b1941148e4318e741d7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Night MoonBurst/Night Moon Burst_Cam_3_Right-X.png using Guid(8e462a9bf0b1941148e4318e741d7b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '500afae7d1370345f8be9a44ae554ce3') in 0.0207915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.138281 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52 - Head Texture_Head_AlbedoTransparency.png
+  artifactKey: Guid(d49696197fbf31241898fb731270d51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52 - Head Texture_Head_AlbedoTransparency.png using Guid(d49696197fbf31241898fb731270d51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd426a4bce7d9205251dfc2fc004879be') in 0.0096354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024280 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52 - Legs Texture_Legs_AlbedoTransparency.png
+  artifactKey: Guid(1b0237073dc5add4987963319d3f8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52 - Legs Texture_Legs_AlbedoTransparency.png using Guid(1b0237073dc5add4987963319d3f8e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69253ba0569837fe46ae203174cdc100') in 0.0061835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023581 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52_-_Arms_Texture_Arms_MetallicSmoothn.png
+  artifactKey: Guid(fd48c5a8ad152954aa32263d25ac0ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52_-_Arms_Texture_Arms_MetallicSmoothn.png using Guid(fd48c5a8ad152954aa32263d25ac0ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e7feb4b3b9b38130112d6175accb32b') in 0.0075249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083900 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Body_Texture_Body_AO.png
+  artifactKey: Guid(986a5446377a30147b8b091df58bb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Body_Texture_Body_AO.png using Guid(986a5446377a30147b8b091df58bb6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '348c7bd37b220adda0183de171999f06') in 0.0097678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433641 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Head_Texture_Head_Normal.png
+  artifactKey: Guid(fb383bc102afa214685a441e915f62f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Head_Texture_Head_Normal.png using Guid(fb383bc102afa214685a441e915f62f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0fdc2abdb0233b324e8534fa87b86f8') in 0.013056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004090 seconds.
+  path: Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Legs_Texture_Legs_MetallicSmoothn.png
+  artifactKey: Guid(b85cefe0781cfce4ba533261cf20b68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Go Systems/GoCharacterController/models/textures/R52 textures/R52n_-_Legs_Texture_Legs_MetallicSmoothn.png using Guid(b85cefe0781cfce4ba533261cf20b68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a83a5a063d8f82f531c53bf30f152271') in 0.0071252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331347 seconds.
+  path: Assets/Tree_Textures/shadow.png
+  artifactKey: Guid(4ce59132f1ad7094890e49960eec062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/shadow.png using Guid(4ce59132f1ad7094890e49960eec062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15511d84302de833d841b6aae3218b28') in 0.0057423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025423 seconds.
+  path: Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_3_Right-X.png
+  artifactKey: Guid(0ccd1239645f54012a6ea72739d04982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Overcast Low/Sky_AllSky_Overcast4_Low_Cam_3_Right-X.png using Guid(0ccd1239645f54012a6ea72739d04982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d24bd78cb775d2f66ceb8a99f6259b4') in 0.0081557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027476 seconds.
+  path: Assets/AliensAndMarines/Artists Assets/Smilzo/Materials/Smilzo_Armor_D.tga
+  artifactKey: Guid(5d09bc2fef76d6a409f69241b2c5f1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AliensAndMarines/Artists Assets/Smilzo/Materials/Smilzo_Armor_D.tga using Guid(5d09bc2fef76d6a409f69241b2c5f1d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '083feaac65991201e311c69e6ca0236c') in 0.0069516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.267508 seconds.
+  path: Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/SunGlare.psd
+  artifactKey: Guid(85a4e5125000348519b7a18a518e6a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/SunGlare.psd using Guid(85a4e5125000348519b7a18a518e6a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54f93cdc25bab248d5299ef0e76df04b') in 0.0176011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.231390 seconds.
+  path: Assets/Lunar Landscape 3D/Resources/Materials/Dust.mat
+  artifactKey: Guid(f35383bc9e18b4381af109e7608ac5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Resources/Materials/Dust.mat using Guid(f35383bc9e18b4381af109e7608ac5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abb35ab564117b92ff9a2f7885ff158e') in 0.044879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Lunar Landscape 3D/Resources/Materials/Ground_03.terrainlayer
+  artifactKey: Guid(13f086762e8674530af62b721b1065e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lunar Landscape 3D/Resources/Materials/Ground_03.terrainlayer using Guid(13f086762e8674530af62b721b1065e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff81d90f86d3823405e2759d1c501430') in 0.0140262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

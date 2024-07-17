@@ -439,6 +439,7 @@
 "Assets/Scripts/Weapons/Shotgun.cs"
 "Assets/Scripts/Weapons/Weapon.cs"
 "Assets/Scripts/Weapons/WeaponLevitation.cs"
+"Assets/True_Horror_Creatures/Horror_creature6_v1.0/Script/THC6_ctrl.cs"
 -langversion:9.0
 
 /deterministic
