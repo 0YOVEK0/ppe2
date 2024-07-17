@@ -15,7 +15,7 @@ D:/GITHUB/ppe2/ppe2
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50247
+50795
 -job-worker-count
 9
 -background-job-worker-count
@@ -58,12 +58,12 @@ D:/GITHUB/ppe2/ppe2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6356] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3378299391 [EditorId] 3378299391 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [6356] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 3378299391 [EditorId] 3378299391 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21080] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1087710402 [EditorId] 1087710402 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21080] Host "[IP] 192.168.1.70 [Port] 0 [Flags] 2 [Guid] 1087710402 [EditorId] 1087710402 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 [Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.18f1 (1cb755715f58)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
@@ -79,7 +79,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -94,43 +94,43 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.004465 seconds.
-- Loaded All Assemblies, in  0.344 seconds
+Registered in 0.006132 seconds.
+- Loaded All Assemblies, in  0.626 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 506 ms
+Android Extension - Scanning For ADB Devices 513 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.818 seconds
-Domain Reload Profiling: 1160ms
-	BeginReloadAssembly (108ms)
+- Finished resetting the current domain, in  0.974 seconds
+Domain Reload Profiling: 1597ms
+	BeginReloadAssembly (260ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (105ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (227ms)
+		LoadAssemblies (256ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (207ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (818ms)
+	FinalizeReload (975ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (783ms)
+		SetupLoadedEditorAssemblies (926ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (596ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			InitializePlatformSupportModulesInManaged (631ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (206ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,154 +153,83 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.693 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.110 seconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.605 seconds
-Domain Reload Profiling: 1296ms
-	BeginReloadAssembly (308ms)
+- Finished resetting the current domain, in  1.013 seconds
+Domain Reload Profiling: 2119ms
+	BeginReloadAssembly (382ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (312ms)
-		LoadAssemblies (250ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (446ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (145ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (105ms)
-			BuildScriptInfoCaches (21ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (606ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (239ms)
+			BuildScriptInfoCaches (24ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1013ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (447ms)
+		SetupLoadedEditorAssemblies (790ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (31ms)
-			ProcessInitializeOnLoadAttributes (375ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3244 unused Assets / (1.1 MB). Loaded Objects now: 3855.
-Memory consumption went from 115.1 MB to 114.0 MB.
-Total: 6.879000 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.345000 ms MarkObjects: 5.086100 ms  DeleteObjects: 1.104700 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.460 seconds
-Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.631 seconds
-Domain Reload Profiling: 1090ms
-	BeginReloadAssembly (162ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (238ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (96ms)
-			TypeCache.Refresh (5ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (631ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (29ms)
-			ProcessInitializeOnLoadAttributes (391ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (672ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3242 unused Assets / (0.8 MB). Loaded Objects now: 3855.
-Memory consumption went from 115.0 MB to 114.2 MB.
-Total: 7.168300 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.407700 ms MarkObjects: 5.508300 ms  DeleteObjects: 0.894500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 1681.787817 seconds.
-  path: Assets/AliensAndMarines/Artists Assets/Alien/Alien_LOD.fbx
-  artifactKey: Guid(a39d5c20a054b6b4b98fc4b3efc11358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AliensAndMarines/Artists Assets/Alien/Alien_LOD.fbx using Guid(a39d5c20a054b6b4b98fc4b3efc11358) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16ea3068fb46dd71304ac57f7e371166') in 0.1543505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 122
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3244 unused Assets / (1.2 MB). Loaded Objects now: 3858.
+Memory consumption went from 115.6 MB to 114.4 MB.
+Total: 7.941600 ms (FindLiveObjects: 0.363500 ms CreateObjectMapping: 0.455800 ms MarkObjects: 5.661400 ms  DeleteObjects: 1.457200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AliensAndMarines/Artists Assets/AlienTurret/Alien_Turret.fbx
-  artifactKey: Guid(4f6b2ef6d1c645642ac212148fc3b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AliensAndMarines/Artists Assets/AlienTurret/Alien_Turret.fbx using Guid(4f6b2ef6d1c645642ac212148fc3b1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34efeecfc0e4ea8e8ca94a4181df3538') in 0.0456296 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+  Time since last request: 3178.571149 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
+  artifactKey: Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png using Guid(0264465325ebb45239163258479c2a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24ced4c6a1444785cc8524f51759b81d') in 0.1317453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AliensAndMarines/Artists Assets/MarineFacility/MarineFacility.fbx
-  artifactKey: Guid(853909322bae660419ef750375183c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AliensAndMarines/Artists Assets/MarineFacility/MarineFacility.fbx using Guid(853909322bae660419ef750375183c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665418ef780307fdd8bea6ea15b6f911') in 0.0798814 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+  Time since last request: 0.000029 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png
+  artifactKey: Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png using Guid(ca9af6b5ce9284592aabb781392ff61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be4879b07d031e6586649bee1423f946') in 0.0117563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/AliensAndMarines/Artists Assets/Ciccio/Ciccio_LOD.fbx
-  artifactKey: Guid(7d0e85e4ded5c4a40ab9f5e3bfbc43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AliensAndMarines/Artists Assets/Ciccio/Ciccio_LOD.fbx using Guid(7d0e85e4ded5c4a40ab9f5e3bfbc43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b56f78e46834266b556ba1246071b2b') in 0.1171514 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+  Time since last request: 0.000066 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.unity
+  artifactKey: Guid(32897540bc73941088749c21da202563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet.unity using Guid(32897540bc73941088749c21da202563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95dc2c5b8656c5412e76530f78a8120e') in 0.0005677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AliensAndMarines/Artists Assets/Mamalien/Mamalien_LOD.fbx
-  artifactKey: Guid(c5717d66a63433d46be8ab0996cd7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AliensAndMarines/Artists Assets/Mamalien/Mamalien_LOD.fbx using Guid(c5717d66a63433d46be8ab0996cd7452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c827bfb511338b1123d0a4fcfef0b37d') in 0.0330801 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 123
+  Time since last request: 0.000132 seconds.
+  path: Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
+  artifactKey: Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png using Guid(40cd83628508d406497f3b21ff220644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cda53b985ef563b8271758ad7e89e8d6') in 0.0106035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
