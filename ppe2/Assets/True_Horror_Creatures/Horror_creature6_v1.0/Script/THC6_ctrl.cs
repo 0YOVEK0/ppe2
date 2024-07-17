@@ -20,7 +20,6 @@ public class THC6_ctrl : MonoBehaviour {
     public int maxHealth = 100; // Vida máxima del enemigo
     private int currentHealth; // Vida actual del enemigo
 
-    // Use this for initialization
     void Start () 
     {                       
         anim = GetComponent<Animator>();
@@ -32,7 +31,6 @@ public class THC6_ctrl : MonoBehaviour {
         currentHealth = maxHealth; // Inicializar la vida del enemigo
     }
 
-    // Update is called once per frame
     void Update () 
     {       
         if (currentHealth <= 0) 
@@ -89,5 +87,13 @@ public class THC6_ctrl : MonoBehaviour {
         // Aquí puedes agregar lógica adicional para cuando el enemigo muera
         // Desactivar el enemigo después de un corto tiempo
         Destroy(gameObject, 3f); // Destruir el objeto después de 3 segundos
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerStats>().TakeDamage(10); // Ajusta el daño según sea necesario
+        }
     }
 }

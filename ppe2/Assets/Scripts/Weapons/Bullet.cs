@@ -14,10 +14,13 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         // Si el proyectil golpea un objeto con la etiqueta "Enemy"
-        if (other.CompareTag("En"))
+        if (other.CompareTag("Enemy"))
         {
-            // Implementar lógica para aplicar daño
-            Debug.Log("Hit Enemy: " + damage + " damage");
+            THC6_ctrl enemy = other.GetComponent<THC6_ctrl>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
 
             // Destruir el proyectil
             Destroy(gameObject);

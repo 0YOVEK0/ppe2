@@ -9,6 +9,7 @@ TagManager:
   - ZipLine
   - wall
   - En
+  - Enemy
   layers:
   - Default
   - TransparentFX
