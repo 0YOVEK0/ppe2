@@ -51,6 +51,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   legPrefab: {fileID: 1682633662898237459, guid: fb7bce2dee9494540a1866bb5d230a51, type: 3}
+  maxHealth: 100
   numberOfLegs: 5
   partsPerLeg: 4
   legCount: 0
@@ -68,7 +69,7 @@ MonoBehaviour:
   maxGrowCoef: 6.5
   newLegCooldown: 0.3
   attackRange: 2
-  velocity: {x: -0.7524138, y: 0, z: -0.1756593}
+  velocity: {x: -0.4044628, y: 0, z: -0.116841786}
 --- !u!114 &608258904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,7 +85,7 @@ MonoBehaviour:
   height: 0.8
   speed: 5
   velocityLerpCoef: 4
-  player: {fileID: 0}
+  player: {fileID: 1429485645955732822, guid: 11f0838cb3f1c9344b284a560a6c6002, type: 3}
   detectionRange: 10
   attackRange: 2
   attackCooldown: 1
