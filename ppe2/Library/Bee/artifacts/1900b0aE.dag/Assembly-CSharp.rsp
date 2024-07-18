@@ -390,6 +390,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/DBK/Scripts/DBK_ColorThemeSelect.cs"
 "Assets/Go Systems/Add-On/Zipline/scripts/GoZipLineSystem.cs"
 "Assets/Go Systems/Add-On/Zipline/scripts/zipLineApi.cs"
 "Assets/Go Systems/GoCharacterController/script/AudioSpeaker.cs"

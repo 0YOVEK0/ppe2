@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 02d7dff9c5723e844be4803cddf1549c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 174899
+  packageName: Destroyed Building Kit - Demo
+  packageVersion: 1.0.1
+  assetPath: Assets/DBK/Scripts/DBK_ColorThemeSelect.cs
+  uploadId: 388611
