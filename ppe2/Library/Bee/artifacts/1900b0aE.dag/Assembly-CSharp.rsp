@@ -432,6 +432,7 @@
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemySpawner.cs"
 "Assets/Scripts/Enemy/RandomSP.cs"
+"Assets/Scripts/Npcs/ComputerInteraction.cs"
 "Assets/Scripts/Npcs/Dialogue.cs"
 "Assets/Scripts/Npcs/DialogueManager.cs"
 "Assets/Scripts/Npcs/NPC.cs"
