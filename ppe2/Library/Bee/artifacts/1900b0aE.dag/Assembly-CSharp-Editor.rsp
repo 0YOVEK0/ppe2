@@ -409,6 +409,8 @@
 "Assets/DBK/Editor/DBK_ColorThemeSelectEditor.cs"
 "Assets/DBK/Editor/DBK_MeshCombine.cs"
 "Assets/Go Systems/GoCharacterController/script/Editor/GCustomMonoBehaviourEditor.cs"
+"Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs"
+"Assets/JMO Assets/WarFX/Editor/CFX_SpawnSystemEditor.cs"
 -langversion:9.0
 
 /deterministic
