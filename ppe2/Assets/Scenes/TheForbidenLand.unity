@@ -641,7 +641,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1429485645955732822, guid: 11f0838cb3f1c9344b284a560a6c6002, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.643848
+      value: -13.59
       objectReference: {fileID: 0}
     - target: {fileID: 1429485645955732822, guid: 11f0838cb3f1c9344b284a560a6c6002, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1338,6 +1338,11 @@ MonoBehaviour:
   target: {fileID: 1310868214}
   moveSpeed: 5
   followRange: Infinity
+  attackRange: 2
+  attackDamage: 10
+  attackCooldown: 1
+  animator: {fileID: 603630510}
+  rotationSpeed: 5
 --- !u!54 &603630507
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1360,7 +1365,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -1386,6 +1391,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 109.6, y: 135.96, z: 200}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &603630510
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603630501}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 9a5782863de91f649ab243f805124da4, type: 3}
+  m_Controller: {fileID: 9100000, guid: c2b8e03387142894bb6206835c9b11d2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 1
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &623951822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7221613306379166970, guid: 11f0838cb3f1c9344b284a560a6c6002, type: 3}
@@ -1435,7 +1462,7 @@ TerrainCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: c12fe14ac11124c40b89ec7c82aa2041, type: 2}
@@ -2302,11 +2329,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5782863de91f649ab243f805124da4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 3.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5782863de91f649ab243f805124da4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 268
+      value: 269
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5782863de91f649ab243f805124da4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2361,6 +2388,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a5782863de91f649ab243f805124da4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 603630508}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9a5782863de91f649ab243f805124da4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 603630510}
   m_SourcePrefab: {fileID: 100100000, guid: 9a5782863de91f649ab243f805124da4, type: 3}
 --- !u!1001 &1299171726
 PrefabInstance:
