@@ -35,11 +35,11 @@ public class EnemyFollow : MonoBehaviour
             // Si la distancia es menor o igual al rango de ataque, ataca
             if (distanceToTarget <= attackRange)
             {
+                // Comprueba si el cooldown del ataque ha terminado
                 if (Time.time >= lastAttackTime + attackCooldown)
                 {
                     // Realiza el ataque
                     Attack();
-
                     // Actualiza el tiempo del último ataque
                     lastAttackTime = Time.time;
                 }
@@ -54,14 +54,14 @@ public class EnemyFollow : MonoBehaviour
 
                 // Actualiza la animación a "Run"
                 animator.SetBool("isRunning", true);
-                animator.SetBool("isAttacking", false);
+                animator.SetBool("IsAttacking", false);
             }
         }
         else
         {
             // Si no está en rango, detén la animación de correr
             animator.SetBool("isRunning", false);
-            animator.SetBool("isAttacking", false);
+            animator.SetBool("IsAttacking", false);
         }
     }
 
@@ -75,8 +75,9 @@ public class EnemyFollow : MonoBehaviour
     void Attack()
     {
         // Actualiza la animación a "Attack"
-        animator.SetBool("isAttacking", true);
+        animator.SetTrigger("Attack");
         animator.SetBool("isRunning", false);
+        animator.SetBool("IsAttacking", true);
 
         // Asume que el jugador tiene un componente PlayerHealth
         PlayerHealth playerHealth = target.GetComponent<PlayerHealth>();
@@ -84,13 +85,5 @@ public class EnemyFollow : MonoBehaviour
         {
             playerHealth.TakeDamage(attackDamage);
         }
-
-        // Detén la animación de ataque después de que el ataque esté hecho
-        Invoke("ResetAttack", 0.5f); // Ajusta el tiempo según la duración de la animación de ataque
-    }
-
-    void ResetAttack()
-    {
-        animator.SetBool("isAttacking", false);
     }
 }

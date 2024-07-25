@@ -1338,7 +1338,7 @@ MonoBehaviour:
   target: {fileID: 1310868214}
   moveSpeed: 5
   followRange: Infinity
-  attackRange: 2
+  attackRange: 4
   attackDamage: 10
   attackCooldown: 1
   animator: {fileID: 603630510}
