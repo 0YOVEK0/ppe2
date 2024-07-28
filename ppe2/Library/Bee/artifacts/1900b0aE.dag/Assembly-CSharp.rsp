@@ -429,6 +429,7 @@
 "Assets/EXTERN/Mimic/Scripts/Movement.cs"
 "Assets/EXTERN/True_Horror_Creatures/Horror_creature6_v1.0/Script/THC6_ctrl.cs"
 "Assets/Scripts/Enemy/Cactus.cs"
+"Assets/Scripts/Enemy/DummyEnemy.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemySpawner.cs"
 "Assets/Scripts/Enemy/RandomSP.cs"
@@ -454,10 +455,13 @@
 "Assets/Scripts/Player/TopDownMovement.cs"
 "Assets/Scripts/Weapons/AssaultRifle.cs"
 "Assets/Scripts/Weapons/Bullet.cs"
+"Assets/Scripts/Weapons/LevitatingWeapon.cs"
 "Assets/Scripts/Weapons/Pistol.cs"
+"Assets/Scripts/Weapons/PlayerWeapons.cs"
 "Assets/Scripts/Weapons/Shotgun.cs"
 "Assets/Scripts/Weapons/Weapon.cs"
 "Assets/Scripts/Weapons/WeaponLevitation.cs"
+"Assets/Scripts/Weapons/WeaponPickup.cs"
 -langversion:9.0
 
 /deterministic
