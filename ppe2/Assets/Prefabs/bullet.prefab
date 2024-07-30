@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5905573550195379559}
   m_Layer: 0
   m_Name: bullet
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,10 +122,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  damage: 10
+  damage: 25
   homingRadius: 500
   homingStrength: 70
-  lifetime: 10
+  lifetime: 20
 --- !u!54 &5905573550195379559
 Rigidbody:
   m_ObjectHideFlags: 0

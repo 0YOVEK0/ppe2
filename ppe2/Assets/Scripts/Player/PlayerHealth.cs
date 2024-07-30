@@ -1,21 +1,33 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
     private int currentHealth;
+    public Slider healthBar; // Referencia a la barra de salud en la UI
 
     private void Start()
     {
         currentHealth = maxHealth;
+        if (healthBar != null)
+        {
+            healthBar.maxValue = maxHealth;
+            healthBar.value = currentHealth;
+        }
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         Debug.Log("Player took " + damage + " damage. Current health: " + currentHealth);
+
+        if (healthBar != null)
+        {
+            healthBar.value = currentHealth;
+        }
 
         if (currentHealth <= 0)
         {
@@ -27,6 +39,7 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("Player died!");
         // Aquí podrías implementar lógica adicional cuando el jugador muere, como reiniciar el nivel o mostrar una pantalla de game over.
+        Destroy(gameObject);
     }
 
     // Método para curar al jugador (opcional)
@@ -34,5 +47,12 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
         Debug.Log("Player healed for " + amount + " health. Current health: " + currentHealth);
+
+        if (healthBar != null)
+        {
+            healthBar.value = currentHealth;
+        }
     }
 }
+
+

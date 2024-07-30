@@ -23,4 +23,3 @@ public class LevitatingWeapon : MonoBehaviour
         transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
     }
 }
-

@@ -59,7 +59,7 @@ public class Bullet : MonoBehaviour
         // Si el proyectil golpea un objeto con la etiqueta "Enemy"
         if (other.CompareTag("Enemy"))
         {
-            DummyEnemy enemy = other.GetComponent<DummyEnemy>();
+            EnemyFollow enemy = other.GetComponent<EnemyFollow>();
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);

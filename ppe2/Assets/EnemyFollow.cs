@@ -10,8 +10,11 @@ public class EnemyFollow : MonoBehaviour
     public float attackCooldown = 1f; // Tiempo de espera entre ataques
     public Animator animator; // Referencia al componente Animator
     public float rotationSpeed = 5f; // Velocidad de rotación del enemigo
+    public int health = 100; // Salud del enemigo
+    public int bulletDamage = 25; // Daño recibido por colisión con bullet
 
     private float lastAttackTime;
+    private bool isDead = false; // Para verificar si el enemigo ya está muerto
 
     private void Start()
     {
@@ -23,6 +26,8 @@ public class EnemyFollow : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return; // Si el enemigo está muerto, no haga nada
+
         // Calcula la distancia entre el enemigo y el objetivo
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
@@ -84,6 +89,52 @@ public class EnemyFollow : MonoBehaviour
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(attackDamage);
+        }
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        // Verificar si el objeto tiene el tag "bullet"
+        if (collision.gameObject.CompareTag("bullet"))
+        {
+            // Reducir salud al colisionar con bullet
+            TakeDamage(bulletDamage);
+            Debug.Log("Enemy hit by Bullet. Health reduced by " + bulletDamage);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        if (isDead) return; // No hacer nada si el enemigo ya está muerto
+
+        health -= damage;
+        Debug.Log("Enemy took " + damage + " damage. Current health: " + health);
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        if (isDead) return; // No hacer nada si el enemigo ya está muerto
+
+        Debug.Log("Enemy died.");
+        isDead = true; // Marca al enemigo como muerto
+
+        // Reproduce la animación de muerte
+        if (animator != null)
+        {
+            animator.SetTrigger("Die"); // Asegúrate de tener un trigger "Die" en el Animator
+
+            // Destruir el objeto después de que la animación de muerte haya terminado (2.03 segundos)
+            Destroy(gameObject, 2.23f);
+        }
+        else
+        {
+            // Si no hay animador, destruye inmediatamente
+            Destroy(gameObject);
         }
     }
 }
