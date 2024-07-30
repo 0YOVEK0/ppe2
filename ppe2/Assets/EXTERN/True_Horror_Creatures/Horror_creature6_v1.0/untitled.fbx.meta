@@ -3,7 +3,17 @@ guid: 9a5782863de91f649ab243f805124da4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MI_Xeno_Body_BaseColor
+    second: {fileID: 2100000, guid: 4d6195afcf33152479cc12aa273446eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: T_MI_Xeno_HeadCap_BaseColor
+    second: {fileID: 2100000, guid: e0843adb1442b464e8ff88c5a0b9bdf5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
