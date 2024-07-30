@@ -6,8 +6,10 @@ public class ComputerInteraction : MonoBehaviour
     public GameObject lorePanel; // El panel que contiene el lore
     public Transform player; // El transform del jugador
     public AudioSource loreAudio; // El componente AudioSource con la narración del lore
+    public float loreDisplayTime = 5f; // Tiempo en segundos para mostrar el panel
 
     private bool isPlayerNearby = false;
+    private float loreTimer = 0f;
 
     void Update()
     {
@@ -27,15 +29,26 @@ public class ComputerInteraction : MonoBehaviour
         if (isPlayerNearby && Input.GetKeyDown(KeyCode.E))
         {
             // Alternar el estado del panel del lore
-            lorePanel.SetActive(!lorePanel.activeSelf);
-            
-            // Reproducir o detener el audio del lore
-            if (lorePanel.activeSelf)
+            if (!lorePanel.activeSelf)
             {
+                lorePanel.SetActive(true);
                 loreAudio.Play();
+                loreTimer = loreDisplayTime; // Iniciar el temporizador
             }
             else
             {
+                lorePanel.SetActive(false);
+                loreAudio.Stop();
+            }
+        }
+
+        // Manejar el temporizador para ocultar el panel
+        if (lorePanel.activeSelf)
+        {
+            loreTimer -= Time.deltaTime;
+            if (loreTimer <= 0f)
+            {
+                lorePanel.SetActive(false);
                 loreAudio.Stop();
             }
         }

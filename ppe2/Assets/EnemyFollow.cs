@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
@@ -128,13 +130,36 @@ public class EnemyFollow : MonoBehaviour
         {
             animator.SetTrigger("Die"); // Asegúrate de tener un trigger "Die" en el Animator
 
-            // Destruir el objeto después de que la animación de muerte haya terminado (2.03 segundos)
-            Destroy(gameObject, 2.23f);
+            // Desactivar el objeto después de que la animación de muerte haya terminado (2.03 segundos)
+            Invoke(nameof(Deactivate), 2.03f);
         }
         else
         {
-            // Si no hay animador, destruye inmediatamente
-            Destroy(gameObject);
+            // Si no hay animador, desactiva inmediatamente
+            Deactivate();
         }
+    }
+
+    public void Disable()
+    {
+        // Desactivar todos los componentes excepto el Renderer
+        foreach (var component in GetComponents<MonoBehaviour>())
+        {
+            component.enabled = false;
+        }
+        foreach (var collider in GetComponents<Collider>())
+        {
+            collider.enabled = false;
+        }
+        foreach (var rigidbody in GetComponents<Rigidbody>())
+        {
+            rigidbody.isKinematic = true;
+        }
+        gameObject.SetActive(false);
+    }
+
+    private void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
 }

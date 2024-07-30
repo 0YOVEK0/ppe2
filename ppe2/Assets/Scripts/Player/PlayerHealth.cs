@@ -8,8 +8,9 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     private int currentHealth;
     public Slider healthBar; // Referencia a la barra de salud en la UI
+    private UIManager uiManager;
 
-    private void Start()
+    void Start()
     {
         currentHealth = maxHealth;
         if (healthBar != null)
@@ -17,6 +18,8 @@ public class PlayerHealth : MonoBehaviour
             healthBar.maxValue = maxHealth;
             healthBar.value = currentHealth;
         }
+
+        uiManager = FindObjectOfType<UIManager>();
     }
 
     public void TakeDamage(int damage)
@@ -38,8 +41,22 @@ public class PlayerHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("Player died!");
-        // Aquí podrías implementar lógica adicional cuando el jugador muere, como reiniciar el nivel o mostrar una pantalla de game over.
-        Destroy(gameObject);
+
+        // Desactivar todos los scripts EnemyFollow en la escena
+        EnemyFollow[] enemies = FindObjectsOfType<EnemyFollow>();
+        foreach (EnemyFollow enemy in enemies)
+        {
+            enemy.Disable();
+        }
+
+        // Mostrar la pantalla de muerte
+        if (uiManager != null)
+        {
+            uiManager.ShowDeathScreen();
+        }
+
+        // Desactivar el jugador en lugar de destruirlo
+        gameObject.SetActive(false);
     }
 
     // Método para curar al jugador (opcional)
@@ -54,5 +71,3 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 }
-
-
