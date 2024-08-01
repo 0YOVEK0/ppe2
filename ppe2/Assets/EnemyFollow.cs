@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public Transform target; // El objetivo a seguir (tu personaje)
+    public string playerTag = "Player"; // Tag del jugador
     public float moveSpeed = 5f; // Velocidad de movimiento del enemigo
-    public float followRange = Mathf.Infinity; // Rango de seguimiento, se puede modificar en el inspector
+    public float followRange = 50f; // Rango de seguimiento, se puede modificar en el inspector
     public float attackRange = 2f; // Rango de ataque del enemigo
     public int attackDamage = 10; // Daño del ataque
     public float attackCooldown = 1f; // Tiempo de espera entre ataques
@@ -15,6 +15,7 @@ public class EnemyFollow : MonoBehaviour
     public int health = 100; // Salud del enemigo
     public int bulletDamage = 25; // Daño recibido por colisión con bullet
 
+    private Transform target; // El objetivo a seguir (tu personaje)
     private float lastAttackTime;
     private bool isDead = false; // Para verificar si el enemigo ya está muerto
 
@@ -24,11 +25,18 @@ public class EnemyFollow : MonoBehaviour
         {
             animator = GetComponent<Animator>(); // Intenta obtener el componente Animator
         }
+
+        // Encuentra al jugador usando el tag
+        GameObject player = GameObject.FindGameObjectWithTag(playerTag);
+        if (player != null)
+        {
+            target = player.transform;
+        }
     }
 
     void Update()
     {
-        if (isDead) return; // Si el enemigo está muerto, no haga nada
+        if (isDead || target == null) return; // Si el enemigo está muerto o no encuentra al objetivo, no haga nada
 
         // Calcula la distancia entre el enemigo y el objetivo
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
