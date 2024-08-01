@@ -1,0 +1,955 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.18f1 (1cb755715f58) revision 1881941'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 32452 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/GITHUB/ppe2/ppe2
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+49804
+-job-worker-count
+9
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/GITHUB/ppe2/ppe2
+D:/GITHUB/ppe2/ppe2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13916] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3470300893 [EditorId] 3470300893 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13916] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3470300893 [EditorId] 3470300893 [Version] 1048832 [Id] WindowsEditor(7,T-800) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+[Physics::Module] Initialized MultithreadedJobDispatcher with 9 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.18f1 (1cb755715f58)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GITHUB/ppe2/ppe2/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5123
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003786 seconds.
+- Loaded All Assemblies, in  0.348 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 557 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.981 seconds
+Domain Reload Profiling: 1326ms
+	BeginReloadAssembly (114ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (981ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (933ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (677ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\GITHUB\ppe2\ppe2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.984 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (518ms)
+		LoadAssemblies (431ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (16ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (850ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3312 unused Assets / (1.3 MB). Loaded Objects now: 3957.
+Memory consumption went from 128.4 MB to 127.1 MB.
+Total: 8.024600 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.453400 ms MarkObjects: 5.643900 ms  DeleteObjects: 1.577600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 693723.972723 seconds.
+  path: Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab
+  artifactKey: Guid(caa7f143fa1fae64cad789ce35ccc0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2B_Large.prefab using Guid(caa7f143fa1fae64cad789ce35ccc0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f97e206ac7998c2f46c081f9c44db6a') in 0.2937491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_Side_B.FBX
+  artifactKey: Guid(d5462237b91f0974385fd8255bf57cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_Side_B.FBX using Guid(d5462237b91f0974385fd8255bf57cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773741f15a1521b1a502c9a459530162') in 0.31015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_End_B.FBX
+  artifactKey: Guid(27bc70247d71501469419ea1fd5df90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_End_B.FBX using Guid(27bc70247d71501469419ea1fd5df90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049a20b96a9fbeaaf37551fcea9d2257') in 0.0519491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/animation/animationCharcter/Jump/Idel Jump/end jump.fbx
+  artifactKey: Guid(660dd6150450a1c4990ed28886118815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/animation/animationCharcter/Jump/Idel Jump/end jump.fbx using Guid(660dd6150450a1c4990ed28886118815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a1e6e47da812d56b22df39887bbb46d') in 0.008218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 519
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/script/prefab/camera.prefab
+  artifactKey: Guid(fafecc5633868d74db54208bac7355a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/script/prefab/camera.prefab using Guid(fafecc5633868d74db54208bac7355a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc8b3ee7de5bd3dc24c94a5e28cbf9eb') in 0.0023934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/EXTERN/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Center.fbx
+  artifactKey: Guid(258cb4865d37b4292be3195af50aaa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Center.fbx using Guid(258cb4865d37b4292be3195af50aaa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5399c57f98ab9a41b88d8d00d9991db') in 0.0300197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EXTERN/AliensAndMarines/Artists Assets/Ciccio/Ciccio_LOD.fbx
+  artifactKey: Guid(7d0e85e4ded5c4a40ab9f5e3bfbc43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/AliensAndMarines/Artists Assets/Ciccio/Ciccio_LOD.fbx using Guid(7d0e85e4ded5c4a40ab9f5e3bfbc43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b56f78e46834266b556ba1246071b2b') in 0.0747228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 166
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C.prefab
+  artifactKey: Guid(1f84ff43bff8bc449892a79fb728fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_2C.prefab using Guid(1f84ff43bff8bc449892a79fb728fdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbc9d3d1dbaafb09f054077e03bea9fc') in 0.0093951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_WinDouble_Full.fbx
+  artifactKey: Guid(1321debaf6416014eabb931376a4dc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_WinDouble_Full.fbx using Guid(1321debaf6416014eabb931376a4dc52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddf4e9929cafbe3718cad221643aca70') in 0.0281512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IMD/Dust.prefab
+  artifactKey: Guid(9768bdc0466b85e489911363f26c07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMD/Dust.prefab using Guid(9768bdc0466b85e489911363f26c07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d1d40ba95ee9a056f33b3aa909bc48c') in 0.017374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_90_B.FBX
+  artifactKey: Guid(1c11cf38492471846bc9333d755ace2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_90_B.FBX using Guid(1c11cf38492471846bc9333d755ace2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee112f43eaf8c98c60c0136d0d9be6ff') in 0.0484659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_Tile_C.FBX
+  artifactKey: Guid(07df54d1ddd27fb4982f144764d3317f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/DBK/Models/Concrete/DBK_Concrete_Wall_Tile_C.FBX using Guid(07df54d1ddd27fb4982f144764d3317f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0543d183b32fd051e9d235c8979ef491') in 0.0439947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch Pose.fbx
+  artifactKey: Guid(899d2fff8f7abe64b82148890c07fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/animation/animationCharcter/Locomotion/Crouch/Crouch Pose.fbx using Guid(899d2fff8f7abe64b82148890c07fcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73ebe083fb1a4ead50a8e633b0deb7b2') in 0.0069912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 519
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EXTERN/DBK/Models/Concrete/DBK_Concete_Wall_Full.fbx
+  artifactKey: Guid(641088feff09d78469dc6f50b1089118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/DBK/Models/Concrete/DBK_Concete_Wall_Full.fbx using Guid(641088feff09d78469dc6f50b1089118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3df866d5ef3cc3e17fb0abcef1bf046e') in 0.0292584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1A.prefab
+  artifactKey: Guid(2f2c5d135938f0343be0510916378c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Corridors, and Doors/Corridor_Connector_1A.prefab using Guid(2f2c5d135938f0343be0510916378c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0616e3d9a563f966f892d3b39f77b006') in 0.0107459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1C.prefab
+  artifactKey: Guid(91a612d162db71343ac88681ee0df5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Extreme Sci-Fi LITE/Prefabs/Lights/Ceiling_Light_1C.prefab using Guid(91a612d162db71343ac88681ee0df5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b4a8f76ecaa7fe9635c547785627ef98') in 0.0236258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.387358 seconds.
+  path: Assets/F3_Corvette/Prefabs/F3_Yellow Variant.prefab
+  artifactKey: Guid(4a44e7ddd5d26154cb1e23c0c3a2addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/F3_Corvette/Prefabs/F3_Yellow Variant.prefab using Guid(4a44e7ddd5d26154cb1e23c0c3a2addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0649ea499189a4b5abe9527fbd01fac1') in 0.054489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EXTERN/AliensAndMarines/Prefabs/PipeStreight.prefab
+  artifactKey: Guid(63046c002d8ae30479d8d940952025f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/AliensAndMarines/Prefabs/PipeStreight.prefab using Guid(63046c002d8ae30479d8d940952025f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b073d1a77e73b0ec216e31b93e32cc1e') in 0.0154361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EXTERN/Mimic/Prefabs/Mimic.prefab
+  artifactKey: Guid(3fc537e92bf3d2449b5be72cfd6cb447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Mimic/Prefabs/Mimic.prefab using Guid(3fc537e92bf3d2449b5be72cfd6cb447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c4fe1784598f101355c6296ee449088') in 0.2978998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.803666 seconds.
+  path: Assets/EXTERN/Lunar Landscape 3D/Prefabs/Rocks_02.prefab
+  artifactKey: Guid(17eccaaf4fc4b460bbfe80bacb3bc357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Lunar Landscape 3D/Prefabs/Rocks_02.prefab using Guid(17eccaaf4fc4b460bbfe80bacb3bc357) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bd5e6fde60aec5214be5142c338d83c') in 0.0106198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EXTERN/LowPoly Guns/Prefabs/Smg2.prefab
+  artifactKey: Guid(e79abd9230a6f0f47b4b6098d11e913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/LowPoly Guns/Prefabs/Smg2.prefab using Guid(e79abd9230a6f0f47b4b6098d11e913e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c8f3aa4bb6f7be7da863cb2401febfa') in 0.0237374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.903697 seconds.
+  path: Assets/Prefabs/Stim.prefab
+  artifactKey: Guid(ebd42136df766da49a16f8d00db41b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Stim.prefab using Guid(ebd42136df766da49a16f8d00db41b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3959527a25cf25dba5c38b888efc6f6e') in 0.00789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d914a04672b72fa042ba08ae53ece6e') in 0.0244233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143577 seconds.
+  path: Assets/EXTERN/True_Horror_Creatures/Horror_creature6_v1.0/Prefabs/thc6.prefab
+  artifactKey: Guid(332254905319da1469830bd3e8725b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/True_Horror_Creatures/Horror_creature6_v1.0/Prefabs/thc6.prefab using Guid(332254905319da1469830bd3e8725b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bacbe3a30eb713162bdbd60fe5dbf6b') in 0.0451078 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 264
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442928 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Metal.prefab
+  artifactKey: Guid(00fedc70b62a31e448e8ccc298257b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Metal.prefab using Guid(00fedc70b62a31e448e8ccc298257b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c569ce220deebec49a6b3673ff8edc1') in 0.0093932 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001433 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact SoftBody.prefab
+  artifactKey: Guid(3b1513bcb86426b4795879be6a128ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact SoftBody.prefab using Guid(3b1513bcb86426b4795879be6a128ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5ef55741e5ca023a01b09116d2db990') in 0.0109423 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009449 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood NoCollision.prefab
+  artifactKey: Guid(d39ab699aa314a147969fd483aa55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Bullet Impacts/WFX_BImpact Wood NoCollision.prefab using Guid(d39ab699aa314a147969fd483aa55205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '971e2d51f452fc1b540f071a3f8daafc') in 0.0067953 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_Explosion.prefab
+  artifactKey: Guid(b46890100828db6429ff69c322b45893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_Explosion.prefab using Guid(b46890100828db6429ff69c322b45893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adafb6ee593526fc93540198f8e8111e') in 0.0151112 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmoke Big.prefab
+  artifactKey: Guid(1dbc518224e49f34095aab42fe05751a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmoke Big.prefab using Guid(1dbc518224e49f34095aab42fe05751a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef1cf7d5c3098b9d75983efd3c547700') in 0.014748 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.653870 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmoke Big Alt.prefab
+  artifactKey: Guid(e0609132424a24844b1d53ad3d704fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmoke Big Alt.prefab using Guid(e0609132424a24844b1d53ad3d704fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba92023ecf9a5a6aa413e57a2ed6a1cc') in 0.0076258 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001823 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmokeGround Big Alt.prefab
+  artifactKey: Guid(3364c97de68d3a147af572d1c71c6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Explosions/WFX_ExplosiveSmokeGround Big Alt.prefab using Guid(3364c97de68d3a147af572d1c71c6455) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '483da88106d6347e87d1bc11146c9be0') in 0.0079694 seconds
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural (No Smoke).prefab
+  artifactKey: Guid(b3167a8e5b4bb9541be8e07f4fac8355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural (No Smoke).prefab using Guid(b3167a8e5b4bb9541be8e07f4fac8355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f8f98d194336cc3118493ed8c7531a6') in 0.0098501 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941258 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_Fire Natural Broad (Gray Smoke).prefab
+  artifactKey: Guid(46db5b1dc2de2384da9a75fc063273be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/Gray Smoke/WFX_Fire Natural Broad (Gray Smoke).prefab using Guid(46db5b1dc2de2384da9a75fc063273be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6deb060e9865b518aa3ce997b3d8415') in 0.0072729 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural Circle (No Smoke).prefab
+  artifactKey: Guid(55654dc0a2e9e124b914a067ed8bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/No Smoke/WFX_Fire Natural Circle (No Smoke).prefab using Guid(55654dc0a2e9e124b914a067ed8bca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b36693680532ebc16dc3fca28be26da0') in 0.0058085 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001495 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_FlameThrower.prefab
+  artifactKey: Guid(b8f9e29cc9e6dcf4387b96b6dacc819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_FlameThrower.prefab using Guid(b8f9e29cc9e6dcf4387b96b6dacc819e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e01d4a140313e134f64f96d8533d7a7e') in 0.0072379 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.499851 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_FlameThrower Big Alt.prefab
+  artifactKey: Guid(aedd4bb62ac8dfd48ae575c52e6e4267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_FlameThrower Big Alt.prefab using Guid(aedd4bb62ac8dfd48ae575c52e6e4267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86ba6f5203a60a5968dddbaf96ce1b29') in 0.0077518 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/Black Smoke/WFX_GazFire (Black Smoke).prefab
+  artifactKey: Guid(a83e0ffec52c58a47a7af8081a1dab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/Black Smoke/WFX_GazFire (Black Smoke).prefab using Guid(a83e0ffec52c58a47a7af8081a1dab6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdeceb1e7979dce73a6afff3bd274240') in 0.0080328 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Blue).prefab
+  artifactKey: Guid(cdd71635203c8ed47a18dcefce87463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Blue).prefab using Guid(cdd71635203c8ed47a18dcefce87463e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6463cc2dc7b228bdd9fe00408b9d68d7') in 0.0084744 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034021 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Green).prefab
+  artifactKey: Guid(416b2492ca9d1b140874c7ba41cb3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Fire/WFX_GazFireBig (Green).prefab using Guid(416b2492ca9d1b140874c7ba41cb3214) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773e30922ceecd6c566945065f325adb') in 0.0068876 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/MuzzleFlashes/4Planes/WFX_MF 4P RIFLE2.prefab
+  artifactKey: Guid(b0a227fc2e558f241b1c747820ccc361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/MuzzleFlashes/4Planes/WFX_MF 4P RIFLE2.prefab using Guid(b0a227fc2e558f241b1c747820ccc361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6f54c1c0a7bfb79220385617e8ee6e3') in 0.0099353 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/MuzzleFlashes/FPS/WFX_MF FPS RIFLE3.prefab
+  artifactKey: Guid(8eaaa4f553116f44b8459bc24201c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/MuzzleFlashes/FPS/WFX_MF FPS RIFLE3.prefab using Guid(8eaaa4f553116f44b8459bc24201c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca68e41f7b754629257ebd6db7c3838b') in 0.0096573 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026410 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/MuzzleFlashes/Sprites/WFX_MF Spr RIFLE2.prefab
+  artifactKey: Guid(eb553b67921c92649ac7dbbc561e2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/MuzzleFlashes/Sprites/WFX_MF Spr RIFLE2.prefab using Guid(eb553b67921c92649ac7dbbc561e2047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '476bc27161fd2405dcfc50e16f347922') in 0.0077451 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001605 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Blue.prefab
+  artifactKey: Guid(bc0b2f96facec664db900c70be366a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Blue.prefab using Guid(bc0b2f96facec664db900c70be366a48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c545f9d8de9883a0804def550300835') in 0.0055826 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Purple.prefab
+  artifactKey: Guid(7cde0416639579a4787e7142ede5fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade AlphaBlend Purple.prefab using Guid(7cde0416639579a4787e7142ede5fd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8650441412d7a1e7015cec8237051ed') in 0.0080593 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.373545 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Black.prefab
+  artifactKey: Guid(6a3cb4ac8fa12944ba1233cbec0e9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/WFX_SmokeGrenade Black.prefab using Guid(6a3cb4ac8fa12944ba1233cbec0e9c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61115d6914c07766ba9598558c571375') in 0.005906 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002003 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Red.prefab
+  artifactKey: Guid(6bd48b8ad8246424db56d2beee2f8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects/Smoke/Color Variants/WFX_SmokeGrenade Red.prefab using Guid(6bd48b8ad8246424db56d2beee2f8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03b023c1f393d5605e61f480403c7f1e') in 0.0072717 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Lit/WFXMR_BImpact Concrete + Hole Lit.prefab
+  artifactKey: Guid(1713e531a06d4d547acdc97e2f7f03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/+ Bullet Hole/Lit/WFXMR_BImpact Concrete + Hole Lit.prefab using Guid(1713e531a06d4d547acdc97e2f7f03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54024f8b56a69a69240183d086b01943') in 0.0520418 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.211688 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/WFXMR_BImpact SoftBody.prefab
+  artifactKey: Guid(f75efcef4bb42054abf94f8e5c701adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/WFXMR_BImpact SoftBody.prefab using Guid(f75efcef4bb42054abf94f8e5c701adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c120bb611a89d254f86f212d5782b121') in 0.0074274 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001981 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/WFXMR_BImpact Wood NoCollision.prefab
+  artifactKey: Guid(2bad6b8b976e8a44cacd2a270b2d3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Bullet Impacts/WFXMR_BImpact Wood NoCollision.prefab using Guid(2bad6b8b976e8a44cacd2a270b2d3ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec3e161795b13da935f3faeed9e72d21') in 0.0077242 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_Explosion LandMine.prefab
+  artifactKey: Guid(872363974360b1540b92d8d9e0453afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_Explosion LandMine.prefab using Guid(872363974360b1540b92d8d9e0453afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e55d3ce449771a7681485ac27bdfab12') in 0.0176938 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021102 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_Explosion Simple.prefab
+  artifactKey: Guid(8f611da60097c85438a2947021f045cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_Explosion Simple.prefab using Guid(8f611da60097c85438a2947021f045cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e07ac8f1535e0a1874a6f0dc5bb10a1') in 0.0076266 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_ExplosiveSmoke Big.prefab
+  artifactKey: Guid(1ae4db7b36e51124b89d2b32303a7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_ExplosiveSmoke Big.prefab using Guid(1ae4db7b36e51124b89d2b32303a7a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58426395d40e7147962ccbb5c2a6e899') in 0.0087129 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_ExplosiveSmokeGround Big.prefab
+  artifactKey: Guid(fafeb973cad62304ba2abdc5dfafbf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_ExplosiveSmokeGround Big.prefab using Guid(fafeb973cad62304ba2abdc5dfafbf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33b3152739b8dd1f6e08a0212be60f32') in 0.0171237 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551620 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_ExplosiveSmokeGround Small.prefab
+  artifactKey: Guid(a2b9ce854d0a5004cba27ab45cbfe205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Explosions/WFXMR_ExplosiveSmokeGround Small.prefab using Guid(a2b9ce854d0a5004cba27ab45cbfe205) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a01f1dce17d72abbf41868daa9f62444') in 0.0101287 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001529 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/No Smoke/WFXMR_Fire Natural Broad (No Smoke).prefab
+  artifactKey: Guid(34fd02ac9d79ecc48959596089be08ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/No Smoke/WFXMR_Fire Natural Broad (No Smoke).prefab using Guid(34fd02ac9d79ecc48959596089be08ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67afeff92d7d0e12dae86e4fa395d9e9') in 0.0068327 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012910 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_Fire SmallFlame (Black Smoke).prefab
+  artifactKey: Guid(5a79c272515d52a48b3b71828bfdd401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_Fire SmallFlame (Black Smoke).prefab using Guid(5a79c272515d52a48b3b71828bfdd401) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9d439443946c1a53b98cfdd6d6ca2e8') in 0.0086456 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_FlameThrower Big Alt.prefab
+  artifactKey: Guid(e8fb3f256cf9d9e439bd069f42a5a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_FlameThrower Big Alt.prefab using Guid(e8fb3f256cf9d9e439bd069f42a5a246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7336e64097286d3787ff6b94301787e9') in 0.0084267 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFire (Black Smoke).prefab
+  artifactKey: Guid(17315d51dc90be34cad95e853f26b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/Black Smoke/WFXMR_GazFire (Black Smoke).prefab using Guid(17315d51dc90be34cad95e853f26b6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e85a0f6190d484b27e74b1e5f2fe407b') in 0.0065584 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022781 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_GazFire (Gray Smoke).prefab
+  artifactKey: Guid(4c5ef88d48ac4ee43b30dbc6343f6d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/Gray Smoke/WFXMR_GazFire (Gray Smoke).prefab using Guid(4c5ef88d48ac4ee43b30dbc6343f6d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b8c6fe4a76b93c5fcb5abd9712c910f') in 0.006863 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002214 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Blue).prefab
+  artifactKey: Guid(55700a754af55ac429f02417b245ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Blue).prefab using Guid(55700a754af55ac429f02417b245ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '008519f9cf00471e2320cb5dc025ac42') in 0.0058397 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001995 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Purple).prefab
+  artifactKey: Guid(99912b6bbb720824baca3259bb8d7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Fire/WFXMR_GazFireBig (Purple).prefab using Guid(99912b6bbb720824baca3259bb8d7b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4eb39ead0fe1e543a14744222681b69') in 0.0069241 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.327828 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/4Planes/WFXMR_MF 4P RIFLE3.prefab
+  artifactKey: Guid(c5946a66b3eec2d479e20b7315b06bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/4Planes/WFXMR_MF 4P RIFLE3.prefab using Guid(c5946a66b3eec2d479e20b7315b06bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5af539ca16031f3d6d5250ecc785d81') in 0.0092558 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/Sprites/WFXMR_MF Spr RIFLE2.prefab
+  artifactKey: Guid(acade480ec18aed4d95a5abc17649351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/MuzzleFlashes/Sprites/WFXMR_MF Spr RIFLE2.prefab using Guid(acade480ec18aed4d95a5abc17649351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19b984dc4a78c02fb72c9f6bdfd39386') in 0.0079501 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/WFXMR_SmokeGrenade AlphaBlend Black.prefab
+  artifactKey: Guid(c380d2dd36b7ec44cb9ea6098511faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/WFXMR_SmokeGrenade AlphaBlend Black.prefab using Guid(c380d2dd36b7ec44cb9ea6098511faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd74035b118b7a63b005025858f685e4a') in 0.0130641 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001196 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/WFXMR_SmokeGrenade AlphaBlend Gray.prefab
+  artifactKey: Guid(902406362f09aa2488ee3d65e2fd6aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/WFXMR_SmokeGrenade AlphaBlend Gray.prefab using Guid(902406362f09aa2488ee3d65e2fd6aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08bb14204d23211d83f8982dd22841a4') in 0.0053695 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/Color Variants/WFXMR_SmokeGrenade AlphaBlend Red.prefab
+  artifactKey: Guid(eb5b3b848b5283f46b5a0a40f5ff9e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/Color Variants/WFXMR_SmokeGrenade AlphaBlend Red.prefab using Guid(eb5b3b848b5283f46b5a0a40f5ff9e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb4ec1025080ee915934d33780768e17') in 0.0055174 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/Color Variants/WFXMR_SmokeGrenade Green.prefab
+  artifactKey: Guid(f8d69af752ffd844c8f3d24cd74f655f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/Color Variants/WFXMR_SmokeGrenade Green.prefab using Guid(f8d69af752ffd844c8f3d24cd74f655f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e7a73db731398631b69921eca13041') in 0.0073933 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047914 seconds.
+  path: Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/WFXMR_SmokeGrenade White.prefab
+  artifactKey: Guid(32c740ca47073a54ebef2634b8b8371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/WarFX/_Effects (Mobile)/Smoke/WFXMR_SmokeGrenade White.prefab using Guid(32c740ca47073a54ebef2634b8b8371f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c5515c7395c5eda6c910bb05d5d45af') in 0.0082297 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.431032 seconds.
+  path: Assets/Materials/Amongus.mat
+  artifactKey: Guid(33b1cc2780e121049a48c491ffec6cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Amongus.mat using Guid(33b1cc2780e121049a48c491ffec6cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '627633117350a90053d098eb804bb45a') in 0.0255029 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.934894 seconds.
+  path: Assets/EXTERN/JMO Assets
+  artifactKey: Guid(aee33dc420e0e0e40b0683ce312b61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets using Guid(aee33dc420e0e0e40b0683ce312b61eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b2f432b9622e3591affa37e591a5f1') in 0.0005127 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.654296 seconds.
+  path: Assets/EXTERN/JMO Assets/Cartoon FX Easy Editor
+  artifactKey: Guid(7a7171bf41aeb6949b08451fbcd42dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/JMO Assets/Cartoon FX Easy Editor using Guid(7a7171bf41aeb6949b08451fbcd42dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9cd87fc9e459ea4b6368ad4813d0b4f') in 0.0004891 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.431262 seconds.
+  path: Assets/EXTERN/True_Horror_Creatures/Horror_creature6_v1.0/thc6.fbx
+  artifactKey: Guid(1c345d5c2a9b820439fe3bd81aa11b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/True_Horror_Creatures/Horror_creature6_v1.0/thc6.fbx using Guid(1c345d5c2a9b820439fe3bd81aa11b09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ed18b2c2d9c0917011467cf4c89ab9b') in 0.0625884 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 210
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.338695 seconds.
+  path: Assets/EXTERN/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat
+  artifactKey: Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/AllSkyFree/_AllSkyFreeDemoEnvironment/Materials/AllSkyDemoEnv_MountainGlow.mat using Guid(1d924399aa96d4378b9c507b7669a4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6287ac2c14960d7b326055932c50982') in 0.0089806 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.387276 seconds.
+  path: Assets/EXTERN/AllSkyFree/_AllSkyFreeDemoEnvironment/Mountain Glare.flare
+  artifactKey: Guid(2a00ea45fcd354f66aa8d68da3f62026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/AllSkyFree/_AllSkyFreeDemoEnvironment/Mountain Glare.flare using Guid(2a00ea45fcd354f66aa8d68da3f62026) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3197184c4c11d4781566fee625fbb29') in 0.0009305 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005921 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled- nor.png
+  artifactKey: Guid(dc90d0b9d5afe6a47aaf392d7492e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled- nor.png using Guid(dc90d0b9d5afe6a47aaf392d7492e6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f545dd0c0619c5cfc5032cd0b95c30d5') in 0.0204422 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062226 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-2.png
+  artifactKey: Guid(a32b93d87dc127c4187c84d6de19faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-2.png using Guid(a32b93d87dc127c4187c84d6de19faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cf69eb09286894bfb6f108e5fc767cc') in 0.0178651 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-1-nor.png
+  artifactKey: Guid(256fb572c818f5d40a6ef70baf2efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-1-nor.png using Guid(256fb572c818f5d40a6ef70baf2efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198bb52239188278f8053ae7574828cb') in 0.0086553 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.387204 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-6.png
+  artifactKey: Guid(63892a6b8784d5740a259c6b763ebf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-6.png using Guid(63892a6b8784d5740a259c6b763ebf30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a235e2e915493ca0d4b16eaed653c2d') in 0.0100185 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-9.png
+  artifactKey: Guid(d0a20b702daf1004797f74a6974cb3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EXTERN/Go Systems/GoCharacterController/models/textures/Livel/Untitled-9.png using Guid(d0a20b702daf1004797f74a6974cb3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2018bafa195d301c43ceb0958d7a74d') in 0.0124674 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
