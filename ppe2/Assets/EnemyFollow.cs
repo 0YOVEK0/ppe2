@@ -98,14 +98,26 @@ public class EnemyFollow : MonoBehaviour
         PlayerHealth playerHealth = target.GetComponent<PlayerHealth>();
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(attackDamage);
+            playerHealth.TakeDamage(attackDamage); // Causa daño al jugador
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
+        // Verificar si el objeto tiene el tag "Player"
+        if (other.CompareTag(playerTag))
+        {
+            // Asume que el jugador tiene un componente PlayerHealth
+            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(attackDamage); // Causa daño al jugador
+                Debug.Log("Player hit by Enemy. Took damage.");
+            }
+        }
+
         // Verificar si el objeto tiene el tag "bullet"
-        if (collision.gameObject.CompareTag("bullet"))
+        if (other.CompareTag("bullet"))
         {
             // Reducir salud al colisionar con bullet
             TakeDamage(bulletDamage);
