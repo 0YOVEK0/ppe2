@@ -442,6 +442,7 @@
 "Assets/Scripts/Npcs/NPCInteraction.cs"
 "Assets/Scripts/Others/DeathMenu.cs"
 "Assets/Scripts/Others/EnergyPickup.cs"
+"Assets/Scripts/Others/GameCore.cs"
 "Assets/Scripts/Others/HealthPickup.cs"
 "Assets/Scripts/Others/HealthPill.cs"
 "Assets/Scripts/Others/MenuController.cs"

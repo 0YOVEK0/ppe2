@@ -1,80 +1,74 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public string playerTag = "Player"; // Tag del jugador
-    public float moveSpeed = 5f; // Velocidad de movimiento del enemigo
-    public float followRange = 50f; // Rango de seguimiento, se puede modificar en el inspector
-    public float attackRange = 2f; // Rango de ataque del enemigo
-    public int attackDamage = 10; // Daño del ataque
-    public float attackCooldown = 1f; // Tiempo de espera entre ataques
-    public Animator animator; // Referencia al componente Animator
-    public float rotationSpeed = 5f; // Velocidad de rotación del enemigo
-    public int health = 100; // Salud del enemigo
-    public int bulletDamage = 25; // Daño recibido por colisión con bullet
+    public string playerTag = "Player"; 
+    public float moveSpeed = 5f; 
+    public float followRange = 50f; 
+    public float attackRange = 2f; 
+    public int attackDamage = 10; 
+    public float attackCooldown = 1f; 
+    public Animator animator; 
+    public float rotationSpeed = 5f; 
+    public int health = 100; 
+    public int bulletDamage = 25; 
 
-    private Transform target; // El objetivo a seguir (tu personaje)
+    private Transform target; 
     private float lastAttackTime;
-    private bool isDead = false; // Para verificar si el enemigo ya está muerto
+    private bool isDead = false; 
+
+    public GameCore gameCore; // Referencia al GameCore
 
     private void Start()
     {
         if (animator == null)
         {
-            animator = GetComponent<Animator>(); // Intenta obtener el componente Animator
+            animator = GetComponent<Animator>();
         }
 
-        // Encuentra al jugador usando el tag
         GameObject player = GameObject.FindGameObjectWithTag(playerTag);
         if (player != null)
         {
             target = player.transform;
         }
+
+        // Buscar el GameCore en la escena
+        if (gameCore == null)
+        {
+            gameCore = FindObjectOfType<GameCore>();
+        }
+
+        Debug.Log("Enemy initialized. Health: " + health);
     }
 
     void Update()
     {
-        if (isDead || target == null) return; // Si el enemigo está muerto o no encuentra al objetivo, no haga nada
+        if (isDead || target == null) return;
 
-        // Calcula la distancia entre el enemigo y el objetivo
         float distanceToTarget = Vector3.Distance(transform.position, target.position);
 
-        // Si la distancia es menor o igual al rango de seguimiento, sigue al objetivo
         if (distanceToTarget <= followRange)
         {
-            // Gira hacia el objetivo
             RotateTowardsTarget();
 
-            // Si la distancia es menor o igual al rango de ataque, ataca
             if (distanceToTarget <= attackRange)
             {
-                // Comprueba si el cooldown del ataque ha terminado
                 if (Time.time >= lastAttackTime + attackCooldown)
                 {
-                    // Realiza el ataque
                     Attack();
-                    // Actualiza el tiempo del último ataque
                     lastAttackTime = Time.time;
                 }
             }
             else
             {
-                // Dirección hacia el objetivo
                 Vector3 direction = (target.position - transform.position).normalized;
-
-                // Mueve al enemigo hacia el objetivo
                 transform.position += direction * moveSpeed * Time.deltaTime;
-
-                // Actualiza la animación a "Run"
                 animator.SetBool("isRunning", true);
                 animator.SetBool("IsAttacking", false);
             }
         }
         else
         {
-            // Si no está en rango, detén la animación de correr
             animator.SetBool("isRunning", false);
             animator.SetBool("IsAttacking", false);
         }
@@ -89,12 +83,10 @@ public class EnemyFollow : MonoBehaviour
 
     void Attack()
     {
-        // Actualiza la animación a "Attack"
         animator.SetTrigger("Attack");
         animator.SetBool("isRunning", false);
         animator.SetBool("IsAttacking", true);
 
-        // Asume que el jugador tiene un componente PlayerHealth
         PlayerHealth playerHealth = target.GetComponent<PlayerHealth>();
         if (playerHealth != null)
         {
@@ -104,10 +96,8 @@ public class EnemyFollow : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        // Verificar si el objeto tiene el tag "bullet"
         if (collision.gameObject.CompareTag("bullet"))
         {
-            // Reducir salud al colisionar con bullet
             TakeDamage(bulletDamage);
             Debug.Log("Enemy hit by Bullet. Health reduced by " + bulletDamage);
         }
@@ -115,7 +105,7 @@ public class EnemyFollow : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isDead) return; // No hacer nada si el enemigo ya está muerto
+        if (isDead) return;
 
         health -= damage;
         Debug.Log("Enemy took " + damage + " damage. Current health: " + health);
@@ -128,29 +118,30 @@ public class EnemyFollow : MonoBehaviour
 
     void Die()
     {
-        if (isDead) return; // No hacer nada si el enemigo ya está muerto
+        if (isDead) return;
 
         Debug.Log("Enemy died.");
-        isDead = true; // Marca al enemigo como muerto
+        isDead = true;
 
-        // Reproduce la animación de muerte
         if (animator != null)
         {
-            animator.SetTrigger("Die"); // Asegúrate de tener un trigger "Die" en el Animator
-
-            // Desactivar el objeto después de que la animación de muerte haya terminado (2.03 segundos)
+            animator.SetTrigger("Die");
             Invoke(nameof(Deactivate), 2.03f);
         }
         else
         {
-            // Si no hay animador, desactiva inmediatamente
             Deactivate();
+        }
+
+        if (gameCore != null)
+        {
+            gameCore.EnemyKilled();
+            Debug.Log("Notifying GameCore of enemy death.");
         }
     }
 
     public void Disable()
     {
-        // Desactivar todos los componentes excepto el Renderer
         foreach (var component in GetComponents<MonoBehaviour>())
         {
             component.enabled = false;
