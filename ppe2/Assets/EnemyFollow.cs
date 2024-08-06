@@ -19,6 +19,8 @@ public class EnemyFollow : MonoBehaviour
     private float lastAttackTime;
     private bool isDead = false; // Para verificar si el enemigo ya está muerto
 
+    public GameCore gameCore; // Referencia al GameCore
+
     private void Start()
     {
         if (animator == null)
@@ -32,6 +34,14 @@ public class EnemyFollow : MonoBehaviour
         {
             target = player.transform;
         }
+
+        // Buscar el GameCore en la escena
+        if (gameCore == null)
+        {
+            gameCore = FindObjectOfType<GameCore>();
+        }
+
+        Debug.Log("Enemy initialized. Health: " + health);
     }
 
     void Update()
@@ -157,6 +167,13 @@ public class EnemyFollow : MonoBehaviour
         {
             // Si no hay animador, desactiva inmediatamente
             Deactivate();
+        }
+
+        // Notificar al GameCore que este enemigo ha sido derrotado
+        if (gameCore != null)
+        {
+            gameCore.EnemyKilled();
+            Debug.Log("Notifying GameCore of enemy death.");
         }
     }
 
