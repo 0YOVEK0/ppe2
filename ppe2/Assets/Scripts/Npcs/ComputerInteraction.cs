@@ -9,7 +9,7 @@ public class ComputerInteraction : MonoBehaviour
     public float loreDisplayTime = 5f; // Tiempo en segundos para mostrar el panel
 
     private bool isPlayerNearby = false;
-    private float loreTimer = 0f;
+    private float loreTimer = 5f;
 
     void Update()
     {
