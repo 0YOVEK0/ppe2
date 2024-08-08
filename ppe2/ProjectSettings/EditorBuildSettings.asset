@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TheForbidenLand.unity
     guid: a1c127f8ba938654aa85bdcd14a46215
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 91ec2d3acd50c754f94e8274f077bd8f
+  - enabled: 1
+    path: Assets/Scenes/Tuto.unity
+    guid: c7deb99e19e8c98478e2023e4bd74381
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

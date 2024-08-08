@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour
     // Método para cargar una escena cuando se hace clic en el primer botón
     public void OnButton1Click()
     {
-        SceneManager.LoadScene("TheForbidenLand");
+        SceneManager.LoadScene("Tuto");
     }
 
     // Método para cargar una escena cuando se hace clic en el segundo botón
@@ -19,7 +19,10 @@ public class MenuController : MonoBehaviour
     // Método para realizar una acción cuando se hace clic en el tercer botón
     public void OnButton3Click()
     {
-        // Aquí puedes agregar cualquier acción que desees realizar
-        Debug.Log("Se hizo clic en el tercer botón.");
+        SceneManager.LoadScene("Credits");
+    }
+    public void OnButton4Click()
+    {
+        SceneManager.LoadScene("TheForbidenLand");
     }
 }
