@@ -9,6 +9,7 @@ public class PlayerStats : MonoBehaviour
 
     public HealthBar healthBar;
     public EnergyBar energyBar;
+    public GameObject deathCanvas; // Referencia al Canvas de muerte
 
     private bool isEnergyArmorActive = false;
     private int energyConsumptionPerSecond = 10; // Consumo de energía por segundo para EnergyArmor
@@ -20,6 +21,11 @@ public class PlayerStats : MonoBehaviour
 
         healthBar.SetMaxHealth(maxHealth);
         energyBar.SetMaxEnergy(maxEnergy);
+
+        if (deathCanvas != null)
+        {
+            deathCanvas.SetActive(false); // Asegúrate de que el Canvas de muerte esté desactivado al inicio
+        }
     }
 
     void Update()
@@ -51,10 +57,7 @@ public class PlayerStats : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            // Implementar lógica de muerte del jugador
-            Debug.Log("Player Died");
-             Destroy(gameObject);
-
+            Die();
         }
     }
 
@@ -117,5 +120,19 @@ public class PlayerStats : MonoBehaviour
     {
         isEnergyArmorActive = false;
         Debug.Log("Energy Armor Deactivated");
+    }
+
+    private void Die()
+    {
+        Debug.Log("Player Died");
+
+        // Desactivar el jugador
+        gameObject.SetActive(false);
+
+        // Mostrar el Canvas de muerte
+        if (deathCanvas != null)
+        {
+            deathCanvas.SetActive(true);
+        }
     }
 }

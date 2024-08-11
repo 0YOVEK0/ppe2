@@ -8,9 +8,15 @@ public class EnemyAI1 : MonoBehaviour
     public Transform player; // Referencia al jugador
     public float delayTime = 3f; // Tiempo de retraso en segundos, editable desde el Inspector
     public float attackRange = 2f; // Rango de ataque en unidades
+    public float chaseRange = 10f; // Rango de persecución en unidades
     public float moveSpeed = 3.5f; // Velocidad de movimiento del enemigo, editable desde el Inspector
+    public int attackDamage = 10; // Daño que el enemigo inflige
+    public float attackInterval = 1f; // Intervalo entre ataques en segundos
+
     private NavMeshAgent agent;
     private Animator animator; // Referencia al componente Animator
+    private PlayerStats playerStats; // Referencia al componente PlayerStats en el jugador
+    private bool isAttacking = false;
 
     void Start()
     {
@@ -22,6 +28,16 @@ public class EnemyAI1 : MonoBehaviour
 
         // Usa 'delayTime' en lugar de un valor fijo
         Invoke("StartFollowingPlayer", delayTime);
+
+        // Obtener la referencia al componente PlayerStats
+        if (player != null)
+        {
+            playerStats = player.GetComponent<PlayerStats>();
+            if (playerStats == null)
+            {
+                Debug.LogError("PlayerStats component is missing on the player object!");
+            }
+        }
     }
 
     void StartFollowingPlayer()
@@ -41,32 +57,61 @@ public class EnemyAI1 : MonoBehaviour
 
     void Update()
     {
-        if (player != null)
+        if (player != null && playerStats != null)
         {
             float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
             if (distanceToPlayer <= attackRange)
             {
                 // En el rango de ataque, cambiar a la animación de ataque
-                if (animator != null)
+                if (!isAttacking)
                 {
-                    animator.SetBool("IsAttacking", true);
+                    isAttacking = true;
+                    if (animator != null)
+                    {
+                        animator.SetBool("IsAttacking", true);
+                    }
+                    StartCoroutine(AttackPlayer());
                 }
+            }
+            else if (distanceToPlayer <= chaseRange)
+            {
+                // Fuera del rango de ataque pero dentro del rango de persecución, continuar persiguiendo
+                if (isAttacking)
+                {
+                    isAttacking = false;
+                    if (animator != null)
+                    {
+                        animator.SetBool("IsAttacking", false);
+                    }
+                }
+
+                agent.SetDestination(player.position);
             }
             else
             {
-                // Fuera del rango de ataque, volver a la animación de correr
+                // Fuera del rango de persecución, detener el movimiento
                 if (animator != null)
                 {
-                    animator.SetBool("IsAttacking", false);
+                    animator.SetBool("IsChasing", false);
                 }
+                agent.ResetPath();
             }
+        }
+    }
 
-            // Moverse hacia el jugador si se ha llamado a StartFollowingPlayer
-            if (agent.hasPath)
+    IEnumerator AttackPlayer()
+    {
+        while (isAttacking)
+        {
+            // Hacer daño constante al escudo primero
+            playerStats.ConsumeEnergy(attackDamage);
+            if (playerStats.currentEnergy <= 0)
             {
-                agent.SetDestination(player.position);
+                int remainingDamage = attackDamage - (int)playerStats.currentEnergy;
+                playerStats.TakeDamage(remainingDamage);
             }
+            yield return new WaitForSeconds(attackInterval);
         }
     }
 
@@ -75,5 +120,9 @@ public class EnemyAI1 : MonoBehaviour
         // Dibujar el rango de ataque en la vista de escena
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        // Dibujar el rango de persecución en la vista de escena
+        Gizmos.color = Color.blue;
+        Gizmos.DrawWireSphere(transform.position, chaseRange);
     }
 }
