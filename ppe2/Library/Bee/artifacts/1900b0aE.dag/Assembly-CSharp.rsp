@@ -388,6 +388,8 @@
 -analyzer:"D:/videojuegos/Unity 2023.2.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/videojuegos/Unity 2023.2.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"D:/videojuegos/Unity 2023.2.18f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/CamaraFollow.cs"
+"Assets/CameraSwitcher.cs"
 "Assets/EnemyFollow.cs"
 "Assets/EXTERN/DBK/Scripts/DBK_ColorThemeSelect.cs"
 "Assets/EXTERN/Go Systems/Add-On/Zipline/scripts/GoZipLineSystem.cs"
@@ -427,6 +429,10 @@
 "Assets/EXTERN/Mimic/Scripts/Mimic.cs"
 "Assets/EXTERN/Mimic/Scripts/Movement.cs"
 "Assets/EXTERN/True_Horror_Creatures/Horror_creature6_v1.0/Script/THC6_ctrl.cs"
+"Assets/NavScripts/AInav.cs"
+"Assets/NavScripts/AInavEnemy.cs"
+"Assets/NavScripts/AInavEnemy1.cs"
+"Assets/NavScripts/EnemyController.cs"
 "Assets/Scripts/Enemy/Cactus.cs"
 "Assets/Scripts/Enemy/DummyEnemy.cs"
 "Assets/Scripts/Enemy/Enemy.cs"
@@ -500,6 +506,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/ThirdPersonCameraWithMouse.cs"
 -langversion:9.0
 
 /deterministic
