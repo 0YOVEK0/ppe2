@@ -4298,7 +4298,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Main Menu
+  m_text: 'Press M to main Menu
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4325,8 +4327,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7198,7 +7200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07413671, g: 0.19523878, b: 0.9245283, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9164,7 +9166,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Restart
+  m_text: Press P to restart
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9191,8 +9193,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10370,7 +10372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.25552803, b: 0.8962264, a: 1}
+  m_Color: {r: 0, g: 0.25552803, b: 0.8962264, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12411,6 +12413,22 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3318329820611786321, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3318329820611786321, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 3318329820611786321, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 3318329820611786321, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.r
+      value: 0.1254902
+      objectReference: {fileID: 0}
     - target: {fileID: 4713871338766461987, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: isOpen
       value: 1
@@ -12455,6 +12473,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5739972875698481446, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798971763317931284, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5844947509290136126, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: energyBar
       value: 
@@ -12466,6 +12492,16 @@ PrefabInstance:
     - target: {fileID: 7156893933486311263, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_Name
       value: R52 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245611629194804884, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Text
+      value: 'Press M to main menu
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7837507076224042648, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Text
+      value: Press Esc to resume
       objectReference: {fileID: 0}
     - target: {fileID: 8357651493996156878, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: isOpen

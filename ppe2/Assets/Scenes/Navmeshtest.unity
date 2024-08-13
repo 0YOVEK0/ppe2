@@ -520,7 +520,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &142685545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1844,6 +1844,7 @@ GameObject:
   - component: {fileID: 705853879}
   - component: {fileID: 705853878}
   - component: {fileID: 705853877}
+  - component: {fileID: 705853880}
   m_Layer: 0
   m_Name: CAT
   m_TagString: Untagged
@@ -1892,6 +1893,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &705853880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705853876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c401add357c134a89a5ac5234d00f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuUI: {fileID: 744929485}
 --- !u!1001 &721311414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2038,6 +2052,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3318329820611786321, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4713871338766461987, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: isOpen
       value: 1
@@ -2082,6 +2100,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5739972875698481446, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739972875698481446, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739972875698481446, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5739972875698481446, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5798971763317931284, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5844947509290136126, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: energyBar
       value: 
@@ -2101,6 +2139,18 @@ PrefabInstance:
     - target: {fileID: 7156893933486311263, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_Name
       value: R52 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7245611629194804884, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Text
+      value: 'Press M to main menu
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7837507076224042648, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_Text
+      value: 'Press Esc to Resume
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 8357651493996156878, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: isOpen
@@ -2127,6 +2177,11 @@ PrefabInstance:
       addedObject: {fileID: 675206133}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+--- !u!1 &744929485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5798971763317931284, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+  m_PrefabInstance: {fileID: 744929484}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &757260614
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,7 +19,7 @@ public class MenuController : MonoBehaviour
     // Método para realizar una acción cuando se hace clic en el tercer botón
     public void OnButton3Click()
     {
-        // Aquí puedes agregar cualquier acción que desees realizar
-        Debug.Log("Se hizo clic en el tercer botón.");
+        SceneManager.LoadScene("Credits");
     }
+
 }
