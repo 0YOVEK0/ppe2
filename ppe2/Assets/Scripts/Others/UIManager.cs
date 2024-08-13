@@ -36,28 +36,15 @@ public class UIManager : MonoBehaviour
     // Método para volver a cargar el nivel actual
     public void ReloadLevel()
     {
-        // Desactivar la pantalla de muerte
-        if (deathScreenCanvas != null)
-        {
-            deathScreenCanvas.SetActive(false);
-        }
-
-        // Volver a cargar el nivel actual
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.buildIndex); // Cambiado a buildIndex para asegurar la correcta carga
+        // Volver a cargar el nivel actual completamente
+         SceneManager.LoadScene("TheForbidenLand");
     }
 
     // Método para cargar el menú principal
     public void LoadMainMenu()
     {
-        // Desactivar la pantalla de muerte
-        if (deathScreenCanvas != null)
-        {
-            deathScreenCanvas.SetActive(false);
-        }
-
         // Cargar la escena del menú principal
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Menu");
     }
 
     // Método para mostrar la pantalla de muerte y activar el cursor

@@ -13,6 +13,6 @@ public class PlatformTrigger : MonoBehaviour
 
     private void ReturnToMainMenu()
     {
-        SceneManager.LoadScene("Menu"); // Asegúrate de que el nombre del menú principal es correcto
+        SceneManager.LoadScene("navmeshtest"); // Asegúrate de que el nombre del menú principal es correcto
     }
 }
