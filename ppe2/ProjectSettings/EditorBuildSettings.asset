@@ -23,5 +23,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Navmeshtest.unity
     guid: 976d9b0cbdb232e4ca29d4fec2d79168
+  - enabled: 1
+    path: Assets/Scenes/MenuGracias.unity
+    guid: f563a7146645fe9438d210d9962c48da
+  - enabled: 1
+    path: Assets/Scenes/Capitulo.unity
+    guid: 639526377575aec4f876c365b578cbc0
+  - enabled: 1
+    path: Assets/Scenes/Level Complete.unity
+    guid: c90539fe901612143a9b984909b975aa
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

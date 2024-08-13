@@ -6,7 +6,7 @@ public class MenuController : MonoBehaviour
     // Método para cargar una escena cuando se hace clic en el primer botón
     public void OnButton1Click()
     {
-        SceneManager.LoadScene("TheForbidenLand");
+        SceneManager.LoadScene("Capitulo");
     }
 
     // Método para cargar una escena cuando se hace clic en el segundo botón

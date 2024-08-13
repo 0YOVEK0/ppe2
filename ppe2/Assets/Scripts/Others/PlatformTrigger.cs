@@ -7,12 +7,15 @@ public class PlatformTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            ReturnToMainMenu();
+            LoadCapitulosScene();
         }
     }
 
-    private void ReturnToMainMenu()
+    private void LoadCapitulosScene()
     {
-        SceneManager.LoadScene("navmeshtest"); // AsegÃºrate de que el nombre del menÃº principal es correcto
+        // Asegúrate de que el cursor sea visible al regresar al menú
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+        SceneManager.LoadScene("Level Complete"); // Carga la escena llamada "Capitulos"
     }
 }

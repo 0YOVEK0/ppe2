@@ -12429,13 +12429,17 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.1254902
       objectReference: {fileID: 0}
+    - target: {fileID: 4512880730608823083, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4713871338766461987, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: isOpen
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5735950720154056513, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.81929
+      value: 43.81929
       objectReference: {fileID: 0}
     - target: {fileID: 5735950720154056513, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12443,7 +12447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5735950720154056513, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -114.99968
+      value: 53.000305
       objectReference: {fileID: 0}
     - target: {fileID: 5735950720154056513, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12489,6 +12493,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 927376053}
+    - target: {fileID: 5844947509290136126, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
+      propertyPath: deathCanvas
+      value: 
+      objectReference: {fileID: 2141547055}
     - target: {fileID: 7156893933486311263, guid: de9f9775746ee4249a44bcdfdaaed274, type: 3}
       propertyPath: m_Name
       value: R52 1
